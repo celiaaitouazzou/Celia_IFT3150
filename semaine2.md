@@ -118,7 +118,7 @@ Once a final decision is made on the requirements, ensure that you get a signed 
 Business Process Model and Notation is used to create graphs that simplify the understanding of the business process. It is a popular technique used by business analysts to coordinate the sequence of messages between different participants in a related set of activities.
 
 <p align="center">
-    <img src="bpmn.JPG" alt="bpmn example"></img>
+    <img src="bpmn.JPG" alt="Figure : bpmn example"></img>
 </p>
 
 
@@ -127,8 +127,10 @@ Business Process Model and Notation is used to create graphs that simplify the u
 Flowcharts depict sequential flow and control logic of a related set of activities. They are useful for both technical and non-technical members. 
 
 flowchart
+<p align="center">
+    <img src="flowchart.JPG"alt="Figure : Flowchart example"></img>
+</p>
 
-Fig: Flowchart example
 
 3. Gantt Charts
 
@@ -136,7 +138,10 @@ Gantt Charts provide a visual representation of tasks along with their scheduled
 
 gantt
 
-Fig: Gantt Charts example
+<p align="center">
+    <img src="gantt.JPG"alt="Fig: Gantt Charts example"></img>
+</p>
+
 
 4. Gap Analysis
 
@@ -144,4 +149,9 @@ Gap analysis evaluates the gaps in a product’s performance to determine whethe
 
 gap
 
-Fig: Gap analysis example
+
+
+<p align="center">
+    <img src="gap.JPG"alt="Fig: Gap analysis example"></img>
+</p>
+
