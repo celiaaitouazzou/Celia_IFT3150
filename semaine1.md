@@ -1,4 +1,4 @@
-## Import-Export :Semaine 1 
+## Import-Export : Semaine 1 
 
 ### Jeudi 5 mai 
 
@@ -26,5 +26,9 @@ On commence par import
 - Mapper configurable - format 
 - 1er temps , mapper arbitraire 
 - 2e temps version configurable avec YAML, JSON, XML ,CSV, XSL , 
-- peut - êtreFormat propriétaire comme pdf , plain text 
+- peut - être format propriétaire comme pdf , plain text 
 - vue comment gentleman est utilisé pour la Gestion de données 
+
+### Problème : 
+
+Il fut impossible de cloner Gentleman , car la seule manière était 'git clone git@github.com:geodes-sms/gentleman.git' qui est le lien ssh. Mais il y avait un problème avec la clé publique qui était lié à mon compte github. On a tenté par l'interface graphique de git de cloner le projet , même chose et cloner par http ne marchait pas parce que le clonage par l'adresse http a été abandonné par Github en 2021. De plus , cela n'aurait pas été une option viable étant donné qu'il y aurait des problèmes de pushes, par expérience. 
