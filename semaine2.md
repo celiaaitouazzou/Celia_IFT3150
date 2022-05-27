@@ -73,7 +73,8 @@ Business & Leadership Courses
 Business Analysis Certification 	CCBA 	Business Analysis Course
 Online MBA Course 	CBAP 	Design Thinking Course
 PGP Digital Transformation 	Post Graduate Diploma in Management 	Digital Transformation
-Step 3: Categorize Requirements
+
+**Step 3: Categorize Requirements**
 
 Since requirements can be of various types, they should be grouped to avoid confusion. Requirements are usually divided into four categories:
 
