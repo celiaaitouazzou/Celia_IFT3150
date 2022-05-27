@@ -18,18 +18,22 @@ Ici , j'ai noté ceux que je pensais qui seraient les plus intéressants pour l'
 Après avoir discuté de quels et quels types seraient convertible où pas (On avait déjà défini YAML comme un type convertible), on est venu à la conclusion qu'il fallait pour qu'un fichier soit convertible , il fallait que la partie du fichier soit étiquettée c'est-à-dire que ça donnée a un 'label' , une étiquette. Par exemple : 
 
 <p align="center">
-
-Bibliothèque : BANq  
-Auteur : Jean-Jacaques Rousseau  
-Titre : Rêveries du promeneur solitaire  
-Éditions : Folio Classiques     
-Dates de parution : 2006  
+    Bibliothèque : BANq  
+	Auteur : Jean-Jacaques Rousseau  
+	Titre : Rêveries du promeneur solitaire  
+	Éditions : Folio Classiques     
+	Dates de parution : 2006  
 </p>
+
+
 
 
 On a alors conclu qu'on aller se concentrer sur 3 types de fichiers : YAML, XML , et CSV. Étant donné que j'avais encore des problèmes de clonage avec mon ordinateur, on a setup gentleman avec un ordinateur du DIRO. 
 
 On a à partir de là installé les dépendances nécessaires au fonctionnement de gentlemant npm et node. Et j'ai vu pour la première fois comment on pouvait le run.
 
-Et de là , Louis-Édouard m'a expliqué l'architecture général du code, m'a montré les fichiers des modèles trafic lights et to do list . Et en général , comment le code fonctionnait , ce qu'il appelait à partir d'index, comment l'exécuter. 
+Et de là , Louis-Édouard m'a expliqué l'architecture général du code, m'a montré les fichiers des modèles trafic lights et to do list . Et en général , comment le code fonctionnait , ce qu'il appelait à partir d'index, comment l'exécuter et le build. 
 
+### Jeudi 12 mai
+
+On a commencé à penser **comment** on pourrait implémenter l'import. Et on a établi à ce point qu'on allait commencer par établir l'import puis après dans le projet on implémenterait l'export. Ce jour-là , j'ai commencé 
