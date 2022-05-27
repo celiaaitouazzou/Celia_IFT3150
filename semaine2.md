@@ -118,7 +118,7 @@ Once a final decision is made on the requirements, ensure that you get a signed 
 Business Process Model and Notation is used to create graphs that simplify the understanding of the business process. It is a popular technique used by business analysts to coordinate the sequence of messages between different participants in a related set of activities.
 
 <p align="center">
-    ![alt text for screen readers](bpmn.JPG "Fig: BPMN example")
+    <img src="bpmn.JPG"></img>
 </p>
 
 
