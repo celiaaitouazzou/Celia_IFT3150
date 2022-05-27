@@ -85,10 +85,7 @@ Since requirements can be of various types, they should be grouped to avoid conf
 > Transitional Requirements - Steps required to implement a new product smoothly.  
 > Operational Requirements - Operations to be carried out in the backend for proper functioning of the product.  
 
-Business & Leadership Courses
-Business Analysis Certification 	CCBA 	Business Analysis Course
-Online MBA Course 	CBAP 	Design Thinking Course
-PGP Digital Transformation 	Post Graduate Diploma in Management 	Digital Transformation
+
 **Step 4: Interpret and Record Requirements**
 
 1. Once the requirements are categorized, determine which requirements are actually achievable and document each one of them. Here are some techniques to analyze and interpret requirements:
