@@ -17,11 +17,15 @@ Pendant mes recherches j'ai trouvé :
 Ici , j'ai noté ceux que je pensais qui seraient les plus intéressants pour l'utilisateur. 
 Après avoir discuté de quels et quels types seraient convertible où pas (On avait déjà défini YAML comme un type convertible), on est venu à la conclusion qu'il fallait pour qu'un fichier soit convertible , il fallait que la partie du fichier soit étiquettée c'est-à-dire que ça donnée a un 'label' , une étiquette. Par exemple : 
 
+<p align="center">
+
 Bibliothèque : BANq  
 Auteur : Jean-Jacaques Rousseau  
 Titre : Rêveries du promeneur solitaire  
 Éditions : Folio Classiques     
 Dates de parution : 2006  
+</p>
+
 
 On a alors conclu qu'on aller se concentrer sur 3 types de fichiers : YAML, XML , et CSV. Étant donné que j'avais encore des problèmes de clonage avec mon ordinateur, on a setup gentleman avec un ordinateur du DIRO. 
 
