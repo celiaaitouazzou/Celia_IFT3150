@@ -126,7 +126,6 @@ Business Process Model and Notation is used to create graphs that simplify the u
 
 Flowcharts depict sequential flow and control logic of a related set of activities. They are useful for both technical and non-technical members. 
 
-flowchart
 <p align="center">
     <img src="flowchart.JPG"alt="Figure : Flowchart example"></img>
 </p>
@@ -136,8 +135,6 @@ flowchart
 
 Gantt Charts provide a visual representation of tasks along with their scheduled timelines. They help business analysts visualize the start and end dates of all the tasks in a project.
 
-gantt
-
 <p align="center">
     <img src="gantt.JPG"alt="Fig: Gantt Charts example"></img>
 </p>
@@ -146,9 +143,6 @@ gantt
 4. Gap Analysis
 
 Gap analysis evaluates the gaps in a product’s performance to determine whether the requirements are met or not. They help business analysts determine the present state and target state of a product.
-
-gap
-
 
 
 <p align="center">
