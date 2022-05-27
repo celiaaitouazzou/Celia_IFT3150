@@ -53,6 +53,8 @@ Avec les étapes suivantes :
 The first step of the requirements analysis process is to identify key stakeholders who are the main sponsors of the project. They will have the final say on what should be included in the scope of the project. 
 
 Next, identify the end-users of the product. Since the product is intended to satisfy their needs, their inputs are equally important. 
+
+
 **Step 2: Capture Requirements**
 
 Ask each of the stakeholders and end-users their requirements for the new product. Here are some requirements analysis techniques that you can use to capture requirements:
