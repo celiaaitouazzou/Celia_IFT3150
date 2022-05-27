@@ -34,6 +34,8 @@ On a à partir de là installé les dépendances nécessaires au fonctionnement 
 
 Et de là , Louis-Édouard m'a expliqué l'architecture général du code, m'a montré les fichiers des modèles trafic lights et to do list . Et en général , comment le code fonctionnait , ce qu'il appelait à partir d'index, comment l'exécuter et le build. 
 
+On a installé les dépendances npm, node , et on a créé .internal où il y a index.html. 
+
 ### Jeudi 12 mai
 
 On a commencé à penser **comment** on pourrait implémenter l'import. Et on a établi à ce point qu'on allait commencer par établir l'import puis après dans le projet on implémenterait l'export. Ce jour-là , nous avons commencé l'analyse des besoins que je ferai et qui continuera jusqu'à la semaine prochaine. 

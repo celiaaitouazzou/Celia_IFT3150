@@ -22,8 +22,14 @@ Il reste à :
 
 J'ai avancé le cas de l'utilisation de l'import 
 
-### Jeudi 
+### Jeudi 19 mai
 
 Pendant ce temps, le UC de l'import avaient assez avancés pour que nous puissions nous fixer un échéancier.
+
+D'ici la fin mai , nous arriverons à convertir : 
+
+- bibliotheque.xml
+- courses.yml
+- soir_sample.csv
 
 
