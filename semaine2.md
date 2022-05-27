@@ -88,8 +88,9 @@ Since requirements can be of various types, they should be grouped to avoid conf
 
 **Step 4: Interpret and Record Requirements**
 
-1. Once the requirements are categorized, determine which requirements are actually achievable and document each one of them. Here are some techniques to analyze and interpret requirements:
-Define Requirements Precisely
+Once the requirements are categorized, determine which requirements are actually achievable and document each one of them. Here are some techniques to analyze and interpret requirements:
+
+1. Define Requirements Precisely
 
 2. Ensure that the requirements are clearly worded, sufficiently detailed, and related to business needs.
 Prioritize Requirements
