@@ -77,10 +77,10 @@ Step 3: Categorize Requirements
 
 Since requirements can be of various types, they should be grouped to avoid confusion. Requirements are usually divided into four categories:
 
-> Functional Requirements - Functions the product is required to perform.
-> Technical Requirements - Technical issues to be considered for the successful implementation of the product.
-> Transitional Requirements - Steps required to implement a new product smoothly.
-> Operational Requirements - Operations to be carried out in the backend for proper functioning of the product.
+> Functional Requirements - Functions the product is required to perform.  
+> Technical Requirements - Technical issues to be considered for the successful implementation of the product.  
+> Transitional Requirements - Steps required to implement a new product smoothly.  
+> Operational Requirements - Operations to be carried out in the backend for proper functioning of the product.  
 
 Business & Leadership Courses
 Business Analysis Certification 	CCBA 	Business Analysis Course
@@ -118,10 +118,8 @@ Once a final decision is made on the requirements, ensure that you get a signed 
 Business Process Model and Notation is used to create graphs that simplify the understanding of the business process. It is a popular technique used by business analysts to coordinate the sequence of messages between different participants in a related set of activities.
 
 <p align="center">
-    <img src="bpmn.JPG"></img>
+    <img src="bpmn.JPG" alt="bpmn example"></img>
 </p>
-
-
 
 
 2. Flowcharts
