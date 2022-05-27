@@ -149,3 +149,8 @@ Gap analysis evaluates the gaps in a product’s performance to determine whethe
     <img src="gap.JPG"alt="Fig: Gap analysis example"></img>
 </p>
 
+### Analyse des Besoins : Semaine 2 
+
+Cette fin de semaine , j'ai entâmé le Step 1 : identifier qui est l'utilisateur typique de l'import de gentleman ( je penserai aux utilisateurs export lorsque je ferai l'export) et j'ai entâmé le Step 2.3 : le cas d'utilisation de l'import (je ferai celui de l'export quand je vais commencer à travailler sur l'export ), les focus group et les interviews étant difficile à faire pour l'instant. J'ai également commencé à travailler sur un prototype (*work in progress*).
+
+**Step 4 reste à faire : prioritiser les besoins , besoin fonctionnels vs non fonctionnels**
