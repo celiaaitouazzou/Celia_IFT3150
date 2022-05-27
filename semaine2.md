@@ -46,6 +46,8 @@ Mais finalement, j'ai suivi le squelette de ce site : https://www.simplilearn.co
 
 Avec les étapes suivantes : 
 
+### PAGE EN QUESTION :
+
 **Step 1: Identify Key Stakeholders and End-Users**
 
 The first step of the requirements analysis process is to identify key stakeholders who are the main sponsors of the project. They will have the final say on what should be included in the scope of the project. 
@@ -84,42 +86,40 @@ Business & Leadership Courses
 Business Analysis Certification 	CCBA 	Business Analysis Course
 Online MBA Course 	CBAP 	Design Thinking Course
 PGP Digital Transformation 	Post Graduate Diploma in Management 	Digital Transformation
-Step 4: Interpret and Record Requirements
+**Step 4: Interpret and Record Requirements**
 
-Once the requirements are categorized, determine which requirements are actually achievable and document each one of them. Here are some techniques to analyze and interpret requirements:
+1. Once the requirements are categorized, determine which requirements are actually achievable and document each one of them. Here are some techniques to analyze and interpret requirements:
 Define Requirements Precisely
 
-Ensure that the requirements are clearly worded, sufficiently detailed, and related to business needs.
+2. Ensure that the requirements are clearly worded, sufficiently detailed, and related to business needs.
 Prioritize Requirements
 
-Prioritize requirements and list them out based on which ones are the “most critical” and which ones are just “nice-to-have”.
+3. Prioritize requirements and list them out based on which ones are the “most critical” and which ones are just “nice-to-have”.
 Carry Out an Impact Analysis
 
-Carry out an impact analysis to make sure that you fully understand the consequences of the requirements.
+4. Carry out an impact analysis to make sure that you fully understand the consequences of the requirements.
 Resolve Conflicts
 
-Arrange a meeting with key stakeholders and resolve conflicting requirements. You can also perform a scenario analysis to explore how the requirements would work for different possible scenarios.
+5. Arrange a meeting with key stakeholders and resolve conflicting requirements. You can also perform a scenario analysis to explore how the requirements would work for different possible scenarios.
 Analyze Feasibility
 
-Perform a detailed analysis of the product based on the requirements gathered to determine its reliability and to identify any major problems.
+6. Perform a detailed analysis of the product based on the requirements gathered to determine its reliability and to identify any major problems.
 
-Once all the requirements are analyzed, create a detailed written document and circulate it among the key stakeholders, end-users and development teams.
-Step 5: Sign off
+7. Once all the requirements are analyzed, create a detailed written document and circulate it among the key stakeholders, end-users and development teams.
+
+**Step 5: Sign off**
 
 Once a final decision is made on the requirements, ensure that you get a signed agreement from the key stakeholders. This is done to ensure that there are no changes or uncontrolled growth in the scope of the project.
 
-Now, we will learn the requirement analysis techniques.
-Free Course: Business Analysis Basics
-Master the Fundamentals of Business AnalysisEnroll Now
-Free Course: Business Analysis Basics
-Requirement Analysis Techniques
+**Now, we will learn the requirement analysis techniques.**
+
 1. Business Process Model and Notation (BPMN)
 
 Business Process Model and Notation is used to create graphs that simplify the understanding of the business process. It is a popular technique used by business analysts to coordinate the sequence of messages between different participants in a related set of activities.
 
-bpmn
 
-Fig: BPMN example
+![alt text for screen readers](bpmn.PNG "Fig: BPMN example")
+
 2. Flowcharts
 
 Flowcharts depict sequential flow and control logic of a related set of activities. They are useful for both technical and non-technical members. 
@@ -127,6 +127,7 @@ Flowcharts depict sequential flow and control logic of a related set of activiti
 flowchart
 
 Fig: Flowchart example
+
 3. Gantt Charts
 
 Gantt Charts provide a visual representation of tasks along with their scheduled timelines. They help business analysts visualize the start and end dates of all the tasks in a project.
@@ -134,6 +135,7 @@ Gantt Charts provide a visual representation of tasks along with their scheduled
 gantt
 
 Fig: Gantt Charts example
+
 4. Gap Analysis
 
 Gap analysis evaluates the gaps in a product’s performance to determine whether the requirements are met or not. They help business analysts determine the present state and target state of a product.
