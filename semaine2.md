@@ -23,3 +23,9 @@ Titre : Rêveries du promeneur solitaire
 Éditions : Folio Classiques     
 Dates de parution : 2006  
 
+On a alors conclu qu'on aller se concentrer sur 3 types de fichiers : YAML, XML , et CSV. Étant donné que j'avais encore des problèmes de clonage avec mon ordinateur, on a setup gentleman avec un ordinateur du DIRO. 
+
+On a à partir de là installé les dépendances nécessaires au fonctionnement de gentlemant npm et node. Et j'ai vu pour la première fois comment on pouvait le run.
+
+Et de là , Louis-Édouard m'a expliqué l'architecture général du code, m'a montré les fichiers des modèles trafic lights et to do list . Et en général , comment le code fonctionnait , ce qu'il appelait à partir d'index, comment l'exécuter. 
+
