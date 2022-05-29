@@ -50,3 +50,10 @@ Voici le schéma de l'architecture :
   <img src="ArchitectureImport.png" alt="Architecture de l'd'import"></img>  
 </p>
 
+## Analyse des besoins 
+
+### End-User : Import
+
+ Mostly everyone. It includes programmers and people who are comfortable with technology but , normally , anyone who knows how to use a computer and an interface should be able to drop a file or look for the file via the interface. A user should be able to deposit his file without any knowledge of what a Json,XML,Yaml is, or without having to convert his file or having to reformat his file. The typical End-User will be someone who has little to no knowledge of how an interface , or a code, or the inner functioning of a computer works , he just knows how to follow steps indicated by an interface which is the case of most computer users . Of course, only certain files can have parts that are convertible to a ‘gentleman look’.But the system should at least be able to tell which parts, if any , are ‘convertible’ and which ones are not and why.  
+
+ 
