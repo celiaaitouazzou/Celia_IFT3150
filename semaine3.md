@@ -78,3 +78,21 @@ Voici le schéma de l'architecture :
 - 8.2. Sérialiser en méta données 
 - 8.3.Convertir les méta-données en json
 9. Ouvrir un nouvel onglet de concept où sera affiché le résultat de l’import 
+
+### Prototype 
+
+<p align="center">
+  <img src="protopage1.png" alt="prototype page 1"></img>  
+</p>
+<p align="center">
+  <img src="protopage1.5.png" alt="prototype page 2"></img>  
+</p>
+<p align="center">
+  <img src="protopage2.png" alt="prototype page 3"></img>  
+</p>
+<p align="center">
+  <img src="protopage3.png" alt="prototype page 4"></img>  
+</p>
+<p align="center">
+  <img src="protopage4.png" alt="prototype page 5"></img>  
+</p>
