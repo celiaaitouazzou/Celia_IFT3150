@@ -56,4 +56,25 @@ Voici le schéma de l'architecture :
 
  Mostly everyone. It includes programmers and people who are comfortable with technology but , normally , anyone who knows how to use a computer and an interface should be able to drop a file or look for the file via the interface. A user should be able to deposit his file without any knowledge of what a Json,XML,Yaml is, or without having to convert his file or having to reformat his file. The typical End-User will be someone who has little to no knowledge of how an interface , or a code, or the inner functioning of a computer works , he just knows how to follow steps indicated by an interface which is the case of most computer users . Of course, only certain files can have parts that are convertible to a ‘gentleman look’.But the system should at least be able to tell which parts, if any , are ‘convertible’ and which ones are not and why.  
 
- 
+ Utilisateur rentre dans Gentleman 
+Utilisateur clique sur les 3 petits points en haut à droite de l’écran puis cliquera sur import
+Boîte de dialogue apparaît affichant un cercle avec ‘JSON’ et ‘HTML’
+3.1. User clique sur la boîte de dialogue 
+3.1.1. Une autre boite de dialogue s’ouvre pour permettre de choisir le fichier 
+3.1.2. User choisit le fichier qu’il aimerait convertit en gentleman
+3.1.3. User confirm son choix 
+(3.2. User drag-and-drop son fichier dans l’espace designé
+3.2.1. User ouvre son file explorer 
+3.2.2. User trouve le fichier dans son file explorer 
+3.2.3. User ‘drag-and-drop’ de l'icône de son fichier dans son file explorer à la boîte de dialogue 
+Afficher information sur fichier choisi par utilisateur (métadonnées))))
+ Un message de confirmation que nous avons reçu le fichier 
+Afficher barre de chargement 
+Passer le fichier dans le compartiment qui va le parser 
+Le parsing se fera en 3 étapes : 
+8.1. Lecture qui se fait en 2 étapes : 
+    8.1.1. Couche générale lecture pour tous les formats
+    8.1.2. Lire le fichier dépendamment 
+8.2. Sérialiser en méta données 
+8.3.Convertir les méta-données en json
+Ouvrir un nouvel onglet de concept où sera affiché le résultat de l’import 
