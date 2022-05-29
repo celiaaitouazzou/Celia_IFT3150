@@ -82,17 +82,17 @@ Voici le schéma de l'architecture :
 ### Prototype 
 
 <p align="center">
-  <img src="protopage1.png" alt="prototype page 1"></img>  
+  <img src="protopage1.jpg" alt="prototype age1"></img>  
 </p>
 <p align="center">
-  <img src="protopage1.5.png" alt="prototype page 2"></img>  
+  <img src="protopage1.5.jpg" alt="prototype page 2"></img>  
 </p>
 <p align="center">
-  <img src="protopage2.png" alt="prototype page 3"></img>  
+  <img src="protopage2.jpg" alt="prototype page 3"></img>  
 </p>
 <p align="center">
-  <img src="protopage3.png" alt="prototype page 4"></img>  
+  <img src="protopage3.jpg" alt="prototype page 4"></img>  
 </p>
 <p align="center">
-  <img src="protopage4.png" alt="prototype page 5"></img>  
+  <img src="protopage4.jpg" alt="prototype page 5"></img>  
 </p>
