@@ -47,7 +47,7 @@ On a vu l'architecture du projet qui est composé de 3 partie :
 Voici le schéma de l'architecture : 
 
 <p align="center">
-  <img src="ArchitectureImport.png" alt="Architecture de l'd'import"></img>  
+  <img src="ArchitectureImport.jpg" alt="Architecture de l'd'import"></img>  
 </p>
 
 ## Analyse des besoins 
