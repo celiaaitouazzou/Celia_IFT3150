@@ -85,7 +85,7 @@ Voici le schéma de l'architecture :
   <img src="protopage1.jpg" alt="prototype age1"></img>  
 </p>
 <p align="center">
-  <img src="protopage1.5.jpg" alt="prototype page 2"></img>  
+  <img src="protopage15.jpg" alt="prototype page 2"></img>  
 </p>
 <p align="center">
   <img src="protopage2.jpg" alt="prototype page 3"></img>  
