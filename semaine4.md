@@ -30,6 +30,8 @@ Rencontre avec M.Syriani. On a revu le plan afin de faire l'import , principalem
 
 #### Problème 
 
+J'ai également update mes semaines et documenté le projet en incluant le prototype, l'analyse des besoins 
+
 J'ai pas compris quand on me demandait de faire les fichiers équivalents si c'était les fichier **pouvant** donner les gentlemans de structures de données bibliothèques.xml,courses.yml,et soir_sample.csv ou si c'était les fichiers que si on avait un gentleman avec ces données et qu'on téléchargeait le json à partir de gentleman , ce qui représente un autre fichier. 
 
-Je ne comprenais pas certains aspect des jsons, comme le target dans attributes , où dois-je mettre les données raw dans le fichier? Il faut que je consulte 
+Je ne comprenais pas certains aspect des jsons, comme le target dans attributes , où dois-je mettre les données raw dans le fichier? Il faut que je consulte Louis-Édouard afin de savoir exactement à quoi devrait ressembler les outputs de ces 3 fichiers. 
