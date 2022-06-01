@@ -20,8 +20,16 @@ fin de semaine : concret derivative
 
 -> cette semaine on aura prototypé des transformations simples.
 
-- inclure les fichiers exemples dans le répertoire 
+- inclure les fichiers exemples dans le répertoire (done)
 
-## Jeudi 26 mai 
+### Vendredi 27 mai 
 
-- Faire les json des fichiers exemples
+Rencontre avec M.Syriani. On a revu le plan afin de faire l'import , principalement l'architecture, on a également vu le méta-modèle qui me permettrait de faire l'import. On a revu le diagramme de classe de gentleman trouvé dans le document de gentleman. 
+
+- Faire les json des fichiers exemples 
+
+#### Problème 
+
+J'ai pas compris quand on me demandait de faire les fichiers équivalents si c'était les fichier **pouvant** donner les gentlemans de structures de données bibliothèques.xml,courses.yml,et soir_sample.csv ou si c'était les fichiers que si on avait un gentleman avec ces données et qu'on téléchargeait le json à partir de gentleman , ce qui représente un autre fichier. 
+
+Je ne comprenais pas certains aspect des jsons, comme le target dans attributes , où dois-je mettre les données raw dans le fichier? Il faut que je consulte 
