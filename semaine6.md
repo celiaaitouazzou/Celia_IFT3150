@@ -2,10 +2,9 @@
 
 ### Lundi : Début du codage 
 
-- Ce qui incluait : 
 
 <ul>
-  <li>J'ai commencé à coder la conversion de soir_sample dynamiquement : 
+  <li>J'ai commencé à coder la conversion de soir_sample dynamiquement,soit : 
 	<ul>
 		<li>readAFile qui est une fonction qui prend un nom de fichier en string et retourne</li>
 		<li>J'ai d'abord essayé avec readFile() : function readAFile(file) qui n'as pas marché plus particulièrement j'avais de la difficulté avec les exemples que j'ai trouvé en ligne à savoir : 
