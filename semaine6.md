@@ -19,9 +19,10 @@
 				</li>
 			</ul>
 		<li>J'ai fait plusieurs itération de cette fonction plus spécifiquement l'erreur "no such file or directory" quand le fichier en question était dans le même répertoire que le fichier de code ou que le code n'arrivait pas à trouver mon fichier de fonction</li>
-		<li>Une fois que la fonction marche tel que : <br>
+		<li>La fonction actuelle marche , tel que montré : <br>
 			<img src="readFunction.png" alt="function serving to read a file" display="block" margin-left="auto" margin-right ="auto" width= "50%"></img>
 		</li>
+		<li>Inspiré de : <a href="https://www.geeksforgeeks.org/node-js-fs-readfilesync-method/">https://www.geeksforgeeks.org/node-js-fs-readfilesync-method/</li>
 	</ul>
   </li>
   
