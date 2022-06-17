@@ -8,21 +8,21 @@
   <li>J'ai commencé à coder la conversion de soir_sample dynamiquement : 
 	<ul>
 		<li>readAFile qui est une fonction qui prend un nom de fichier en string et retourne</li>
-		<li>J'ai d'abord essayé avec readFile() : 
-			<span id="placeholder">
-				// Node.js program to demonstrate
-// the fs.readFile() method
-  
-// Include fs module
-var fs = require('fs');
-  
-// Use fs.readFile() method to read the file
-fs.readFile('Demo.txt', 'utf8', function(err, data){
-      
-    // Display the file content
-    console.log(data);
-});
-			</span>
+		<li>J'ai d'abord essayé avec readFile() : <br>
+			<p>
+				function readAFile(file){<br>
+var fs = require('fs');<br>
+var data ="";<br>
+try {<br>
+    data = fs.readFileSync(file, 'utf8');<br>
+    return data;<br>
+} catch(e) {<br>
+    console.log('Error:', e.stack);<br>
+}<br>
+
+}<br>
+			</p>
+			
 </li>
 		<li>Milk</li>
 	</ul>
