@@ -15,12 +15,12 @@
 				<li><a href="https://www.geeksforgeeks.org/node-js-fs-readfile-method/">https://www.geeksforgeeks.org/node-js-fs-readfile-method/</a></li>
 				<li><a href="https://stackabuse.com/read-files-with-node-js/">https://stackabuse.com/read-files-with-node-js/</a></li>
 				<li>Ainsi j'avais en guise de lecture ceci : <br>
-					<img src="readFunctionBad.png" alt="function serving to read a file(bad one)" align ="center"></img>
+					<img src="readFunctionBad.png" alt="function serving to read a file(bad one)" display="block" margin-left="auto" margin-right ="auto" width= "50%"></img>
 				</li>
 			</ul>
 		<li>J'ai fait plusieurs itération de cette fonction plus spécifiquement l'erreur "no such file or directory" quand le fichier en question était dans le même répertoire que le fichier de code ou que le code n'arrivait pas à trouver mon fichier de fonction</li>
 		<li>Une fois que la fonction marche tel que : <br>
-			<img src="readFunction.png" alt="function serving to read a file" align ="center"></img>
+			<img src="readFunction.png" alt="function serving to read a file" display="block" margin-left="auto" margin-right ="auto" width= "50%"></img>
 		</li>
 	</ul>
   </li>
