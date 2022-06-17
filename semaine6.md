@@ -4,6 +4,7 @@
 
 
 <ul>
+	<li>Maintenant qu'on a bien compris les bases de gentleman (ce qui inclut les primitives , et les formats acceptés et des fichiers qui sont pris en entrés par l'éditeur pour créer et manipuler les modèles.</li>
   <li>J'ai commencé à coder la conversion de soir_sample dynamiquement,soit : 
 	<ul>
 		<li>readAFile qui est une fonction qui prend un nom de fichier en string et retourne</li>
@@ -15,8 +16,10 @@
 				<li><a href="https://stackabuse.com/read-files-with-node-js/">https://stackabuse.com/read-files-with-node-js/</a></li>
 			</ul>
 		<li>J'ai fait plusieurs itération de cette fonction plus spécifiquement l'erreur "no such file or directory" quand le fichier en question était dans le même répertoire que le fichier de code ou que le code n'arrivait pas à trouver mon fichier de fonction</li>
-		<li></li>
+		<li>Une fois que la fonction marche tel que : 
+			<img src="readFunction.png" alt="function serving to read a file" align ="center"></img>
+		</li>
 	</ul>
   </li>
-  <li>on a compris les bases de gentleman (ce qui inclut les primitives , et les formats acceptés et des fichiers qui sont pris en entrés par l'éditeur pour créer et manipuler les modèles.</li>
+  
 </ul>
