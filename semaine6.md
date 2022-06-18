@@ -23,7 +23,6 @@
 			<img src="parse1.png" alt="function serving to read a file(bad one)" display="block" margin-left="auto" margin-right ="auto" width= "50%"></img>
 		</li>
 		</li>
-		
 		<li> La fonction actuelle marche , tel que montré : <br>
 			<img src="readFunction.png" alt="function serving to read a file" display="block" margin-left="auto" margin-right ="auto" width= "50%"></img>
 		</li>
