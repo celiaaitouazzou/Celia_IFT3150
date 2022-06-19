@@ -28,7 +28,13 @@
 
 <ul>
 </li>
-	<li>J'ai supprimé la fonction parseCSV() qui n'ajoutait pas grand-chose et l'a remplacé par typeInference() qui est plus proche de l'inférence de type , mais je ne sais toujours pas comment faire pour convertir ma dataframe en structure json</li>
-	<li>J'ai séparé la fonction qui lit le fichier dans un autre fichier afin de mieux compartimentaliser mes fonctions et que les autres modules à venir (yml,xml) arrivent à importer et utiliser la fonction.</li>
+	<li>J'ai supprimé la fonction parseCSV() qui n'ajoutait pas grand-chose et l'a remplacé par typeInference() qui est plus proche de l'inférence de type et j'ai fait plusieurs recherches afin de trouver les regex qui pourront m'aider à connaitre le type exacte de string qu'il s'agit 
+		<ul>
+			<li> Pour savoir si c'est un nombre : <a href="https://stackoverflow.com/questions/9011524/regex-to-check-whether-a-string-contains-only-numbers"></a>https://stackoverflow.com/questions/9011524/regex-to-check-whether-a-string-contains-only-numbers</li>
+			<li></li>
+		</ul>
+	 </li>
+	<li>mais je ne sais toujours pas comment faire pour convertir ma dataframe en structure json</li>
+	<li>J'ai séparé la fonction qui lit le fichier dans un autre fichier afin de mieux compartimentaliser mes fonctions et que les autres modules à venir (yml,xml) arrivent à importer et utiliser la fonction de cette façon : <a href="https://stackoverflow.com/questions/5797852/in-node-js-how-do-i-include-functions-from-my-other-files">https://stackoverflow.com/questions/5797852/in-node-js-how-do-i-include-functions-from-my-other-files</a></li>
 </li>
 </ul>
