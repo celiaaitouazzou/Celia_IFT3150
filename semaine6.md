@@ -30,8 +30,8 @@
 </li>
 	<li>J'ai supprimé la fonction parseCSV() qui n'ajoutait pas grand-chose et l'a remplacé par typeInference() qui est plus proche de l'inférence de type et j'ai fait plusieurs recherches afin de trouver les regex qui pourront m'aider à connaitre le type exacte de string qu'il s'agit 
 		<ul>
-			<li> Pour savoir si c'est un nombre : <a href="https://stackoverflow.com/questions/9011524/regex-to-check-whether-a-string-contains-only-numbers"></a>https://stackoverflow.com/questions/9011524/regex-to-check-whether-a-string-contains-only-numbers</li>
-			<li></li>
+			<li> Si l'élément de la dataframe de la 2e rangée (dataframe[1]) ne contiens que des nombres ,c'est un nombre : <a href="https://stackoverflow.com/questions/9011524/regex-to-check-whether-a-string-contains-only-numbers"></a>https://stackoverflow.com/questions/9011524/regex-to-check-whether-a-string-contains-only-numbers</li>
+			<li>Si l'élément de la dataframe de la 2e rangée (dataframe[1]) ne contiens que des lettres comme ceci : <a href="https://stackoverflow-com.translate.goog/questions/12778083/regex-with-space-and-letters-only?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr&_x_tr_pto=sc">https://stackoverflow-com.translate.goog/questions/12778083/regex-with-space-and-letters-only?_x_tr_sl=en&_x_tr_tl=fr&_x_tr_hl=fr&_x_tr_pto=sc</a>, c'est une string mais est-ce un url, un email , une date ou un type reconnaissable de données? Quelles sont les données que gentleman peut comprendre?  </li>
 		</ul>
 	 </li>
 	<li>mais je ne sais toujours pas comment faire pour convertir ma dataframe en structure json</li>
