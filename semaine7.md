@@ -20,9 +20,27 @@
 			<li>On utilise la string S en input à file2DDataframe(S) ce qui nous redonne le tableau 2D D.</li>
 			<li>Je vérifie la validité du fichier avec validation(D) voir si le fichier a le même nombre de colonnes dans chaque rangées. </li>
 			<li>Si le fichier est valide on continue avec le parsing du fichier csv , sinon on demande à l'utilisateur de changer son fichier.</li>
-			<li>Une fois la validation faite et si c'est valide , on appelle initialize étant donné que tous les csv ont pour premier concept : *collection_de_rangees* comme établi précédemment lorsque nous validions à quoi devait ressembler nos inputs:
-			{"name":"collection_de_rangees","nature":"concrete","attributes":[{"name": "row_set,required":true,"target":{"name":"set","accept":{"name":"rangee"}}}]}
+			<li>Une fois la validation faite et si c'est valide , on appelle initialize étant donné que tous les csv ont pour premier concept : *collection_de_rangees* comme établi précédemment lorsque nous validions à quoi devait ressembler nos inputs . En d'autre terme , un 'set' du concept rangées :
+			{"name":"collection_de_rangees","nature":"concrete","attributes":[{"name": "row_set,required":true,"target":{"name":"set","accept":{"name":"rangee"}}}]} 
         	</li>
+        	<li>Une fois ce premier concept initialisé , on l'ajoute à la liste de concept</li>
+        	<li>Il reste maintenant à définir le concept de Rangées.</li>
+        	<li>On commence ceci par create_attribute(dataf) . Cette fonction itère à travers la rangée header du csv afin de retirer les attributs du concept rangées. Chaque élément retiré est le nom de l'attribut. On appelle également get_target qui retourne un objet target de type string et on met required = true. </li>
+        	<li>Une fois notre attribut fais on l'ajoute à la liste d'attribut 'listOfAttributes qu'on retourne à la fin de la fonction.</li>
+        	<li>addToConceptToList va appeler la fonction avec le dataframe qu'on a et ensuite créé un concept qui a pour nom: "rangee", nature : "concrete" et pour liste d'attribut , la liste qu'on a créé avec create_attribute(dataf) et on rajoute ce concept à la liste de concept.</li>
+        	<li>Finalement, on met la suite de fonctions dans l'ordre désiré à savoir : 
+        		[```main () {
+					var df = this.file2DDataFrame(",");
+					csvps.initialize(
+					"collection_de_rangees",
+					"concrete",
+					[new Attribute("row_set",new Target("set",true,{"name":"rangee"}),true)]);
+					if(this.validation(df)){
+					csvps.addConceptToList(df);             
+					} 
+				}
+				```]
+    </li>
 		</ol> 
 	</li>
 </ul>
