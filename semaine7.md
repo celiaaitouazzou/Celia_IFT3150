@@ -10,3 +10,8 @@
 	<li>Une classe Attributes qui a un 'name' (string), un objet Target , et un 'required'(boolean) , </li>
 	<li>Une classe Target qui a 3 attribut : 'name' le nom du type de l'attribut (string , number, boolean ,set , reference),'isAccept' boolean qui dit qu'un accept est nécessaire (dans le cas d'un set ou d'une référence) ou pas , et l'ensemble accept en question</li>
 </ul>
+
+<br><br>
+
+<ul>
+</ul>
