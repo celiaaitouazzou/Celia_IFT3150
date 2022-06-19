@@ -1,6 +1,6 @@
 ## Semaine 6 : Import  
 
-### Lundi : Début du codage 
+### Lundi 6 juin 2022 : Début du codage 
 
 
 <ul>
