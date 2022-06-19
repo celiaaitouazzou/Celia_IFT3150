@@ -14,4 +14,29 @@
 <br><br>
 
 <ul>
+	<li>Dans un deuxième temps , on a le pipeline suivant : 
+		<ol>
+			<li>On lit le fichier avec readAFile(filename) ce qui nous redonne la string S</li>
+			<li>On utilise la string S en input à file2DDataframe(S) ce qui nous redonne le tableau 2D D.</li>
+			<li>Je vérifie la validité du fichier avec validation(D) voir si le fichier a le même nombre de colonnes dans chaque rangées. </li>
+			<li>Si le fichier est valide on continue avec le parsing du fichier csv , sinon on demande à l'utilisateur de changer son fichier.</li>
+			<li>Une fois la validation faite et si c'est valide , on appelle initialize étant donné que tous les csv ont pour premier concept : *collection_de_rangees* 
+			{<br>
+            "name":"collection_de_rangees",<br>
+            "nature":"concrete",<br>
+            "attributes":[<br>
+                {<br>
+                    "name": "row_set",<br>
+                    "required":true,<br>
+                    "target":{<br>
+                        "name":"set",<br>
+                        "accept":{<br>
+                            "name":"rangee"<br>
+                        }<br>
+                    }<br>
+                }<br>
+            ]<br>
+        	},<br></li>
+		</ol> 
+	</li>
 </ul>
