@@ -14,12 +14,10 @@
 				<li><a href="https://nodejs.org/en/knowledge/file-system/how-to-read-files-in-nodejs/">https://nodejs.org/en/knowledge/file-system/how-to-read-files-in-nodejs/</a></li>
 				<li><a href="https://www.geeksforgeeks.org/node-js-fs-readfile-method/">https://www.geeksforgeeks.org/node-js-fs-readfile-method/</a></li>
 				<li><a href="https://stackabuse.com/read-files-with-node-js/">https://stackabuse.com/read-files-with-node-js/</a></li>
-				<li>Ainsi j'avais en guise de lecture ceci : <br>
-					<img src="readFunctionBad.png" alt="function serving to read a file(bad one)" display="block" margin-left="auto" margin-right ="auto" width= "50%"></img>
-				</li>
-			</ul>
-		<li>J'ai fait plusieurs itération de cette fonction plus spécifiquement l'erreur "no such file or directory" quand le fichier en question était dans le même répertoire que le fichier de code ou que le code n'arrivait pas à trouver mon fichier de fonction <br>
-		<li>J'ai également eu la fonction : parseCSV() (essaie de parser le fichier csv mais est enlevé), file2DDataFrame( qui seperator) qui convertit et typeInference <br>
+		</ul>
+		<li>J'avais fait dans un premier temps la fonction readAFile(filename) qui prend un nom de fichier et retourne en string (J'ai fait plusieurs itération de cette fonction plus spécifiquement l'erreur "no such file or directory" quand le fichier en question était dans le même répertoire que le fichier de code ou que le code n'arrivait pas à trouver mon fichier de fonction).</li>
+		<li>parseCSV() qui cherche à savoir quel type de données est-ce que la column représente(int,bool,ou string) tel que présenté ici : <a href="https://github.com/geodes-sms/gentleman/commit/c0cdc6e6020e423dd9bb09dd903c8e1a8e8b52b5">https://github.com/geodes-sms/gentleman/commit/c0cdc6e6020e423dd9bb09dd903c8e1a8e8b52b5</a></li>
+		<li></li><br>
 		</li>
 		<li>Inspiré de : <a href="https://www.geeksforgeeks.org/node-js-fs-readfilesync-method/">https://www.geeksforgeeks.org/node-js-fs-readfilesync-method/</li>
 	</ul>
