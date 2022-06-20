@@ -4,17 +4,11 @@
 
 <ul>
 	<li>J'ai réorganisé les fichiers du répertoire : les fichiers inputs pour les tests dans tests/tests-input , les fichiers que je génère tests/tests-manual , les fichiers que je génère dynamiquement dans tests/tests-generated, cela facilitera les tests dynamiques quand on en aura</li>
-	<li> J'ai une fonction d'écriture pour que les fichiers puisse être écrit dans tests/tests-generated.</li>
+	<li> J'ai une fonction d'écriture pour que les fichiers puisse être écrit dans tests/tests-generated avec : <a href="https://thewebdev.info/2022/03/06/how-to-overwrite-a-file-using-fs-in-node-js/">https://thewebdev.info/2022/03/06/how-to-overwrite-a-file-using-fs-in-node-js/</a></li>
 	<li> J'ai cherché une librairie afin de convertir yml en json,j'ai consulté plusieurs ressources : 
 		<ul>
 			<li><a href="https://stackoverflow.com/questions/36973736/convert-yaml-to-json-using-javascript">https://stackoverflow.com/questions/36973736/convert-yaml-to-json-using-javascript</a></li>
 			<li><a href=""></a></li>
-			a: r, 
-			r : {
-				j:1,
-				k:2,
-				l:3
-			}
 		</ul>
 	</li>
 	<li>On fera le parsage yml en 3 temps : 
