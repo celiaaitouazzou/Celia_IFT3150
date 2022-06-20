@@ -44,3 +44,21 @@
 		</ol> 
 	</li>
 </ul>
+
+## Jeudi 16 juin 2022 
+
+<ul>
+	<li>Maintenant que nous avions la structure voulue, nous ne l'avions pas dans le format voulu. </li>
+	<li>Nous avions par exemple: <br>
+		<img src ="datastructurecsv1.png" alt="bad data structure"></img>
+	</li>
+	<li>Les éléments Objets contenait ce qu'ils devaient contenir mais ceci n'aidait pas à contruire la structure sous la forme json désiré</li>
+	<li>Alors on a construit une pipeline qui permettrait de le faire à partir de la structure que nous avions établi: <br>
+		<ol>
+			<li>On crée un objet ListConcept listConcept</li>
+			<li>listConcept.main() afin d'avoir notre structure remplie en bonne et due forme</li>
+			<li>On appelle listConcept et on appelle listConcept.printConceptList(); </li>
+			<li>printListConcept initialise la string qui accumule la structure (la string builder si vous voulez), </li>
+		</ol>
+	</li>
+</ul>
