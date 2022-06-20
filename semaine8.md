@@ -10,6 +10,7 @@
 		<ul>
 			<li><a href="https://stackoverflow.com/questions/36973736/convert-yaml-to-json-using-javascript">https://stackoverflow.com/questions/36973736/convert-yaml-to-json-using-javascript</a></li>
 			<li><a href="https://stackoverflow.com/questions/38781929/how-to-convert-json-to-yaml-in-javascript">https://stackoverflow.com/questions/38781929/how-to-convert-json-to-yaml-in-javascript</a></li>
+			<li></li>
 			<li>Puis finalement utiliser : <a href="https://www.npmjs.com/package/js-yaml">https://www.npmjs.com/package/js-yaml</a></li>
 		</ul>
 	</li>
@@ -21,7 +22,9 @@
 			<li>Ensuite, nous allons tenter de voir des similarité plus subtiles , par exemple : si dans un concept , nous sommes pour la plupart similaire mais dans le concept A il y a l'attribut : "date of birth" et dans l'autre l'attribut :"year of birth" il est possible de faire un rapprochement entre les deux pour dire qu'ils sont similaires. L'aviser à l'utilisateur qu'il y a x % de similarité entre ces deux concepts. </li>
 			<li>Dans un 3e temps , faire participer l'utilisateur pour lui demander lorsqu'on voit qu'un concept est similaire à un autre, veut-il qu'il soit le même et que les attributs en questions soient facultatifs? ou veut-il que ce soit deux concepts différents? </li>	
 		</ul>
-		<li>On fait la même chose pour les types plus complexes (concept dans concept ou set de concept (Array.isArray) dans concept etc.)</li>
+		<li>On fait la même chose pour les types plus complexes (concept dans concept ou set de concept (Array.isArray) dans concept etc.)<br>
+		<b><a href ="https://stackoverflow.com/questions/38304401/javascript-check-if-dictionary">https://stackoverflow.com/questions/38304401/javascript-check-if-dictionary</a></b>
+		</li>
 	</li>
 	
 </ul>
