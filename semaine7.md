@@ -60,7 +60,7 @@
 			<li>On appelle listConcept et on appelle listConcept.printConceptList(); </li>
 			<li>printListConcept initialise la string qui accumule la structure (la string builder si vous voulez), et qui accumule {type : concept ,concept : [...et à ce moment on itère à travers la liste de concept et pour chacun de ces concepts on appelle concept[i].printConcept()...]  </li>
 			<li>concept.printConcept() de son coté, accumule le nom du concept sa nature et itère à travers les attributs en appelant pour chacun des attribute[i].printAttribute()</li>
-			<li>par la suite , attribute.printAttribute accumule le nom de l'attribut, le target par l'entremise de la fonction printTarget qui accumule target et le Accept s'il y a lieu et retourne la string accumulé à printAttribute pour compléter et printAttribute complète avec 'required'</li>
+			<li>par la suite , attribute.printAttribute accumule le nom de l'attribut, le target par l'entremise de la fonction printTarget qui accumule target et le Accept en parcourant le dictionnaire récusivement avec un For in (<a href="https://www.w3schools.com/js/js_loop_forin.asp">https://www.w3schools.com/js/js_loop_forin.asp</a>)s'il y a lieu et retourne la string accumulé à printAttribute pour compléter et printAttribute complète avec 'required'</li>
 			<li>Une fois l'attribute bien fait il retourne son résultat à printConcept qui l'ajoute à ce qu'il avait déjà pour faire un concept complet </li>
 			<li>printConceptList l'ajoute au reste de la collection des concepts établis</li>
 			<li>On a alors la structure voulue , il manque plus qu'à prendre cette structure et l'écrire dans un json et cela sera valide </li>
@@ -76,6 +76,7 @@
 	<li>Faire plus de tests par rapport au jsons que cela donne voir si cela marche dans tous les cas valides (Autant de colonnes partout). </li>
 	<li>ajuster à a fin des arrays pour pas avoir de virgules : <br> 
 		<a href="https://stackoverflow.com/questions/3216013/get-the-last-item-in-an-array">https://stackoverflow.com/questions/3216013/get-the-last-item-in-an-array</a><br>
+		<a href="https://stackoverflow.com/questions/26241478/reverse-lookup-object-with-array">https://stackoverflow.com/questions/26241478/reverse-lookup-object-with-array</a><br>
 		<a href="https://stackoverflow.com/questions/26241478/reverse-lookup-object-with-array">https://stackoverflow.com/questions/26241478/reverse-lookup-object-with-array</a>
 	</li>
 	<li>Optimiser les fonctions de print afin qu'elle soit moins lourdes et plus maintenables.</li>
