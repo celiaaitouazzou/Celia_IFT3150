@@ -13,7 +13,6 @@
 			<li>Puis finalement utiliser : <a href="https://www.npmjs.com/package/js-yaml">https://www.npmjs.com/package/js-yaml</a></li>
 		</ul>
 	</li>
-	<ul>
 	<li>On fera le parsage yml en 3 temps pour les types primitifs: 
 		<ul>
 			<li>on parse en prenant pour compte que tous les concept sont concrets</li>
@@ -24,7 +23,6 @@
 			<li>On fait la même chose pour les types plus complexes (concept dans concept ou set de concept (Array.isArray) dans concept etc.)</li>
 		</ul>
 	</li>
-	</ul>
 	
 </ul>
 
