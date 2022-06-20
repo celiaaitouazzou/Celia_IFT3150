@@ -25,9 +25,6 @@ Après avoir discuté de quels et quels types seraient convertible où pas (On a
 	Dates de parution : 2006  <br>
 </p>
 
-
-
-
 On a alors conclu qu'on aller se concentrer sur 3 types de fichiers : YAML, XML , et CSV. Étant donné que j'avais encore des problèmes de clonage avec mon ordinateur, on a setup gentleman avec un ordinateur du DIRO. 
 
 On a à partir de là installé les dépendances nécessaires au fonctionnement de gentlemant npm et node. Et j'ai vu pour la première fois comment on pouvait le run.

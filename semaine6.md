@@ -14,6 +14,7 @@
 				<li><a href="https://nodejs.org/en/knowledge/file-system/how-to-read-files-in-nodejs/">https://nodejs.org/en/knowledge/file-system/how-to-read-files-in-nodejs/</a></li>
 				<li><a href="https://www.geeksforgeeks.org/node-js-fs-readfile-method/">https://www.geeksforgeeks.org/node-js-fs-readfile-method/</a></li>
 				<li><a href="https://stackabuse.com/read-files-with-node-js/">https://stackabuse.com/read-files-with-node-js/</a></li>
+				<li><a href="https://www.w3schools.com/nodejs/nodejs_filesystem.asp">https://www.w3schools.com/nodejs/nodejs_filesystem.asp</a></li>
 		</ul>
 		<li>J'avais fait dans un premier temps la fonction readAFile(file) qui prend un nom de fichier et retourne en string (J'ai fait plusieurs itération de cette fonction plus spécifiquement l'erreur "no such file or directory" quand le fichier en question était dans le même répertoire que le fichier de code ou que le code n'arrivait pas à trouver mon fichier de fonction).</li>
 		<li>parseCSV() qui cherche à savoir quel type de données est-ce que la column représente(int,bool,ou string) tel que présenté ici : <a href="https://github.com/geodes-sms/gentleman/commit/c0cdc6e6020e423dd9bb09dd903c8e1a8e8b52b5">https://github.com/geodes-sms/gentleman/commit/c0cdc6e6020e423dd9bb09dd903c8e1a8e8b52b5</a></li>
@@ -28,6 +29,7 @@
 
 <ul>
 </li>
+	<li>Me familiariser avec javascript : <a href="https://www.w3schools.com/js/js_function_parameters.asp"></a></li>
 	<li>J'ai supprimé la fonction parseCSV() qui n'ajoutait pas grand-chose et l'a remplacé par typeInference() qui est plus proche de l'inférence de type et j'ai fait plusieurs recherches afin de trouver les regex qui pourront m'aider à connaitre le type exacte de string qu'il s'agit 
 		<ul>
 			<li> Si l'élément de la dataframe de la 2e rangée (dataframe[1]) ne contiens que des nombres ,c'est un nombre : <a href="https://stackoverflow.com/questions/9011524/regex-to-check-whether-a-string-contains-only-numbers"></a>https://stackoverflow.com/questions/9011524/regex-to-check-whether-a-string-contains-only-numbers</li>
