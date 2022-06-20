@@ -14,7 +14,7 @@
 <br><br>
 
 <ul>
-	<li>Dans un deuxième temps , on a le pipeline suivant : 
+	<li> Dans un deuxième temps , on a le pipeline suivant : 
 		<ol>
 			<li>On lit le fichier avec readAFile(filename) ce qui nous redonne la string S</li>
 			<li>On utilise la string S en input à file2DDataframe(S) ce qui nous redonne le tableau 2D D.</li>
@@ -40,7 +40,7 @@
 					} 
 				}
 				```]
-    </li>
+    		</li>
 		</ol> 
 	</li>
 </ul>

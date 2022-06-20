@@ -4,11 +4,13 @@
 
 <ul>
 	<li>J'ai réorganisé les fichiers du répertoire : les fichiers inputs pour les tests dans tests/tests-input , les fichiers que je génère tests/tests-manual , les fichiers que je génère dynamiquement dans tests/tests-generated, cela facilitera les tests dynamiques quand on en aura</li>
+	<li>Avant j'ai essayé d'autres moyens pour écrire le fichier avec appendFile : <a href="https://www.tutorialkart.com/nodejs/create-file-in-nodejs-using-node-fs-module/">https://www.tutorialkart.com/nodejs/create-file-in-nodejs-using-node-fs-module/</a></li>
 	<li> J'ai une fonction d'écriture pour que les fichiers puisse être écrit dans tests/tests-generated avec : <a href="https://thewebdev.info/2022/03/06/how-to-overwrite-a-file-using-fs-in-node-js/">https://thewebdev.info/2022/03/06/how-to-overwrite-a-file-using-fs-in-node-js/</a></li>
 	<li> J'ai cherché une librairie afin de convertir yml en json,j'ai consulté plusieurs ressources : 
 		<ul>
 			<li><a href="https://stackoverflow.com/questions/36973736/convert-yaml-to-json-using-javascript">https://stackoverflow.com/questions/36973736/convert-yaml-to-json-using-javascript</a></li>
 			<li><a href="https://stackoverflow.com/questions/38781929/how-to-convert-json-to-yaml-in-javascript">https://stackoverflow.com/questions/38781929/how-to-convert-json-to-yaml-in-javascript</a></li>
+			<li>Puis finalement utiliser : <a href="https://www.npmjs.com/package/js-yaml">https://www.npmjs.com/package/js-yaml</a></li>
 		</ul>
 	</li>
 	<ul>
