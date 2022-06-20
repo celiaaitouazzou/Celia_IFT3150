@@ -74,6 +74,10 @@
 	<li>Indiquer dans l'interface lorsque le fichier n'est pas convertible.</li>
 	<li>Faire les suggestions de types une fois que l'import sera fini afin de rendre l'import plus user-friendly</li>
 	<li>Faire plus de tests par rapport au jsons que cela donne voir si cela marche dans tous les cas valides (Autant de colonnes partout). </li>
+	<li>ajuster à a fin des arrays pour pas avoir de virgules : <br> 
+		<a href="https://stackoverflow.com/questions/3216013/get-the-last-item-in-an-array">https://stackoverflow.com/questions/3216013/get-the-last-item-in-an-array</a><br>
+		<a href="https://stackoverflow.com/questions/26241478/reverse-lookup-object-with-array">https://stackoverflow.com/questions/26241478/reverse-lookup-object-with-array</a>
+	</li>
 	<li>Optimiser les fonctions de print afin qu'elle soit moins lourdes et plus maintenables.</li>
 	<li>Ajouter les données (instacier les concepts) pour le csv après avoir fait les structures pour yml</li>
 </ul>

@@ -30,7 +30,6 @@ Après une discussion , on a établi que , par rapport à mes questions de la se
 	<ul>
 		<li>On commence par la couche la plus extérieure et on la met en temps que concept A </li>
 		<li>Ensuite tous les enfants de A sont mis en tant que set (à moins qu'on ait une référence xml alors on le déclare comme référence) et on vérifie si eux ont des enfants, si oui -> ils sont aussi des concepts complexe , sinon , ils sont des primitives(string,integer,boolean) </li>
-		
 	</ul>
 </ul> 
 
