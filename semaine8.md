@@ -26,7 +26,24 @@
 		<b><a href ="https://stackoverflow.com/questions/38304401/javascript-check-if-dictionary">https://stackoverflow.com/questions/38304401/javascript-check-if-dictionary</a></b>
 		</li>
 	</li>
-	
+	<li>Créé la classe : YMLParserSerializer avec un constructeur qui prend une string filename</li>
+	<li>yml2JsonObject() : méthode qui prend this.filename et ressort un objet </li>
+	<li>getAttributeOfOneElementOfYMLList(ymlListElement) qui extrait les éléments de ma liste dans mon dictionnaire et les retourne </li>
+	<li>getAttributesOfAllElementOfYMLList () , applique cela à tous les éléments de l'objet json principal, celui retourné par le ParserYML</li>
+	<li>comparer les attributs qui est supposé appeler checkIfIncluded qui elle-même est une fonction qui compare deux listes , voir si elle contient les mêmes éléments même si dans un ordre différent</li>
+	<li> Liens utilisé et encore possiblement utiles: 
+		<ul>
+			<li><a href="https://stackoverflow.com/questions/201183/how-to-determine-equality-for-two-javascript-objects"></a>https://stackoverflow.com/questions/201183/how-to-determine-equality-for-two-javascript-objects</li>
+			<li><a href="https://github.com/angular/angular.js/blob/6c59e770084912d2345e7f83f983092a2d305ae3/src/Angular.js#L670">https://github.com/angular/angular.js/blob/6c59e770084912d2345e7f83f983092a2d305ae3/src/Angular.js#L670</a></li>
+			<li><a href="https://github.com/angular/angular.js/blob/6c59e770084912d2345e7f83f983092a2d305ae3/src/Angular.js#L670">https://github.com/angular/angular.js/blob/6c59e770084912d2345e7f83f983092a2d305ae3/src/Angular.js#L670</a></li>
+			<li><a href="https://flexiple.com/javascript-array-equality/">https://flexiple.com/javascript-array-equality/</a></li>
+			<li><a href="https://www.w3schools.com/js/js_object_sets.asp">https://www.w3schools.com/js/js_object_sets.asp</a></li>
+			<li><a href="https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Array/includes">https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Array/includes</a></li>
+			<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Indexed_collections">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Indexed_collections</a></li>
+			<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set</a></li>
+			<li><a href="https://stackoverflow.com/questions/8866652/determine-if-2-lists-have-the-same-elements-regardless-of-order">https://stackoverflow.com/questions/8866652/determine-if-2-lists-have-the-same-elements-regardless-of-order</a></li>
+		</ul>
+	</li>
 </ul>
 
 ### Jeudi 23 juin 2020 : Codage Semaine 3 (YML)
