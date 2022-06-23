@@ -43,7 +43,21 @@
 			<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set</a></li>
 			<li><a href="https://stackoverflow.com/questions/8866652/determine-if-2-lists-have-the-same-elements-regardless-of-order">https://stackoverflow.com/questions/8866652/determine-if-2-lists-have-the-same-elements-regardless-of-order</a></li>
 		</ul>
+		<li>Ceci étant dit : je vais tout retravailler à partir du fait que j'ai le yml parsé en json object</li>
+		<li>
+			<ul> Plus de ressources utiles:
+				<li><a href="https://stackoverflow.com/questions/8511281/check-if-a-value-is-an-object-in-javascript">https://stackoverflow.com/questions/8511281/check-if-a-value-is-an-object-in-javascript</a></li>
+			</ul>
+		</li>
 	</li>
 </ul>
 
 ### Jeudi 23 juin 2020 : Codage Semaine 3 (YML)
+
+Voici le pipeline que je suis en train de créer en supposant que j'ai mon objet json: 
+<ol>
+	<li>J'ai ajouté la fonction : retrieveAttribute(i,objectElement) qui prend un élément d'un dictionnaire et retourne l'équivalent en attribut.</li>
+	<li>retrieveAccept() pour que si on a des sous structures sous-jacente on puisse les récupérer </li>
+	<li>createAttributeList(object) qui prend un object (dans notre cas un élément de la liste d'objet qu'est le json) et itère à travers les clefs  i qui appelle retrieveAttribute(clef,jsonObject[clef]) retourne une liste d'attributs d'UN SEUL concept</li> 
+	<li>generateConceptList() : appelle createAttributeList(object) pour chacun des objets dans la liste d'objets de l'objet json , avec la liste d'attributs pour chaque objet et l'attribut conceptName , on crée un attribut concret et on l'ajoute à la liste d'attribut. <b>On a alors une première version de la structure qu'on recheche(voir semaine 7)</b></li>
+</ol>
