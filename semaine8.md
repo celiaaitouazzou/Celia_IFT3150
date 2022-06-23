@@ -42,6 +42,7 @@
 			<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Indexed_collections">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Indexed_collections</a></li>
 			<li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set</a></li>
 			<li><a href="https://stackoverflow.com/questions/8866652/determine-if-2-lists-have-the-same-elements-regardless-of-order">https://stackoverflow.com/questions/8866652/determine-if-2-lists-have-the-same-elements-regardless-of-order</a></li>
+			<li></li>
 		</ul>
 		<li>Ceci étant dit : je vais tout retravailler à partir du fait que j'ai le yml parsé en json object</li>
 		<li>
@@ -64,4 +65,6 @@ Voici le pipeline que je suis en train de créer en supposant que j'ai mon objet
 
 ***Note*** : sameAttribute(x,y) compare deux attributs x et y à savoir s'il ont le même nom , et la même structure, alors ils représentent le même attribut (j'ai essayé ceci : <a href="https://stackoverflow.com/questions/1068834/object-comparison-in-javascript">https://stackoverflow.com/questions/1068834/object-comparison-in-javascript</a>) mais finalement ,cela ne marchait pas alors j'ai fini par simplement : return JSON.stringify(x) == JSON.stingify(y) ce qui me donne de meilleurs résultats avec moins de code
 
-Finalment ,ce que j'ai fait et qu'il semble marcher c'est que tous les concepts ont le même nom et la même nature. Maintenant ,sameAttribute(x,y) au lieu qu'on l'utilise pour comparer des attributs , on l'utilise pour comparer des concepts. Si pour un concept i , et un concept j , sameAttribute(x,y) retourne true , cela veut qu'il n'y a AUCUNE (0) différence entre les deux concepts , il s'agit alors du même concept alors on enlève le concept à l'index j.
+Finalment ,ce que j'ai fait et qu'il semble marcher c'est que tous les concepts ont le même nom et la même nature. Maintenant ,sameAttribute(x,y) au lieu qu'on l'utilise pour comparer des attributs , on l'utilise pour comparer des concepts. Si pour un concept i , et un concept j , sameAttribute(x,y) retourne true , cela veut qu'il n'y a AUCUNE (0) différence entre les deux concepts , il s'agit alors du même concept alors on enlève le concept à l'index j avec splice développé dans primitive-classes.js:<a href="https://stackoverflow.com/questions/5767325/how-can-i-remove-a-specific-item-from-an-array">https://stackoverflow.com/questions/5767325/how-can-i-remove-a-specific-item-from-an-array</a>.
+
+Maintenant , Le step 1 , le premier temps , est terminé. Il reste maintenant à raffiner notre liste afin de savoir si la liste d'attribut d'un concept est sous-ensemble de la liste d'attribut d'un autre concept (2e temps).
