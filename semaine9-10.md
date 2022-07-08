@@ -69,4 +69,24 @@ this.nameTheConcepts();
   root: undefined
 } , ce qui n'est pas du tout ce que nous rechechons</li>
 <li>On essaie ensuite <a href="https://www.npmjs.com/package/xml-parse">https://www.npmjs.com/package/xml-parse</a> Résultat : on avait juste la couche extérieure et il aurait fallu implémenter une logique récursive de on rentre dans innerXML qu'on parse pour ensuite itérer à travers ses élément et encore avoir un innerHTML pour avoir un objet utilisable dans le futur</li>
-<li><a href="https://www.npmjs.com/package/dom-parser">https://www.npmjs.com/package/dom-parser</a> Essaie 4 , on a : </li>
+<li>Essaie 4 : <a href="https://www.npmjs.com/package/dom-parser">https://www.npmjs.com/package/dom-parser</a> 
+et j'ai appris que cela existait via <a href="https://medium.com/@nitinpatel_20236/converting-xml-to-json-using-recursion-7b1df91b42d8">https://medium.com/@nitinpatel_20236/converting-xml-to-json-using-recursion-7b1df91b42d8</a></li>
+<li>la fonction xml2json(srcDOM) est directement prise de : <a href="https://medium.com/@nitinpatel_20236/converting-xml-to-json-using-recursion-7b1df91b42d8">https://medium.com/@nitinpatel_20236/converting-xml-to-json-using-recursion-7b1df91b42d8</a></li>
+<li>On essait cette méthode et on a une erreur que le string en xml qu'on essaie de convertir n'est pas un itérable alors on ne peut pas le faire donc on ne garde pas cette idée ni la fonctiopn xml2json(srcDOM)</li>
+<li>On est revenu avec la première librairie et avec du déboggage de stack et en essayant tous ces sites , on est arrivé à faire marcher la librairie: 
+	<ul>
+		<li><a href=""></a></li>
+		<li><a href=""></a></li>
+		<li><a href=""></a></li>
+		<li><a href=""></a></li>
+		<li><a href=""></a></li>
+		<li><a href=""></a></li>
+		<li><a href=""></a></li>
+<li><a href="https://www.npmjs.com/package/fxp">https://www.npmjs.com/package/fxp</a>Consulter dans le but de débogger pour utiliser fast-xml-parser</li>
+<li><a href="https://stackoverflow.com/questions/9023672/how-do-i-resolve-cannot-find-module-error-using-node-js">https://stackoverflow.com/questions/9023672/how-do-i-resolve-cannot-find-module-error-using-node-js</a>Encore une fois déboggage la librarie pour qu'on puisse l'utiliser</li>
+<li><a href="https://stackoverflow.com/questions/9023672/how-do-i-resolve-cannot-find-module-error-using-node-js">https://stackoverflow.com/questions/9023672/how-do-i-resolve-cannot-find-module-error-using-node-js</a>Autre déboggage du modules</li>
+<li><a href="https://stackoverflow.com/questions/19272880/node-js-require-and-module-not-found">https://stackoverflow.com/questions/19272880/node-js-require-and-module-not-found</a>Pour voir comment je peux règler l'erreur avec la librairie en question.</li>
+<li><a href="https://github.com/NaturalIntelligence/fast-xml-parser">https://github.com/NaturalIntelligence/fast-xml-parser</a> On a utilisé ce repertoire pour pouvoir faire l'import et on appelle fxp.js à partir de require </li>
+<li><a href="https://attacomsian.com/blog/nodejs-check-if-directory-exists">https://attacomsian.com/blog/nodejs-check-if-directory-exists</a>Pour checker si mon directory que j'appelle dans require est valide</li><li><a href="https://www.npmjs.com/package/fast-xml-parser">https://www.npmjs.com/package/fast-xml-parser</a> Apprend la base de comment utiliser le parser </li>
+</ul>
+</li>
