@@ -27,5 +27,26 @@
 		</ul>
 	</li>
 	<li>getProtoAttributeName() : accumule les noms d'attributs dans une liste et la retourne.</li>
-	<li></li>
+	<li>updateConceptList() : On itère à travers les concepts et pour chaque concept , on itère à travers sa liste d'attribut et si la liste de nom d'attributs du prototype == nom d'attribut dans la liste de concept alors , on supprime l'attribut dans la liste de concept.
+	</li>
+	<li>add_prototype : ajoute le concept prototype à la liste de concept</li>
+	<li>main() : appelle les fonctions dans l'ordre pour convertir l'object yml en object ConceptList par lequel on peut just faire JSON.stringify(objetConceptList) et avoir notre JSON en bonne et dûe forme: 
+<p>
+	main()
+{
+this.generateConceptList();
+this.findDifferentConcepts();
+this.eliminateRequired();
+
+
+if(this.listConcept.length > 1)
+{
+    this.updateConceptList();
+    this.add_prototype(); 
+}
+this.nameTheConcepts();
+}
+</p>
+	</li>
+	<li>On a fini 99% du yml , il reste à tester avec plus d'exemple et  les optimisations possibles du code à faire.<li>
 </ul>
