@@ -15,8 +15,17 @@
 		<ul>
 			<li>appelle eliminateDoublons()</li>
 			<li>on itère à travers le dictionnaire complet et pour chaque nom d'attribut , on le cherche dans la liste de concept et s,Il y a un concept qui l'a et qu'il y a plus d,une version de l'attribut et que required = true (la seule différence entre deux attributs de même nom est le required) alors on mets le required à true </li>
+			<li>On appelle findDifferentConcepts, si cela fait que deux concepts sont identiques, supprimer celui en trop</li>
 		</ul>
 	</li>
-	<li>getPrototypeConcept() : appelé SEULEMENT si après eliminateRequired() , il y a plus d'un concept dans la liste</li>
+	<li>getPrototypeConcept() : appelé SEULEMENT si après eliminateRequired() , il y a plus d'un concept dans la liste
+		<ul>
+			<li>On instancie un nouveau concept qui sera le prototype du yml</li>
+			<li>si dans tous les concepts , un certain attribut est pareil partout dans tous les concepts , on l'inclut à la liste d'attribut du prototype.</li>
+			<li>on fait qu'il y ait un exemplaire de chaque attribut comme à eliminateDoublons()</li>
+			<li>On retourne le prototype </li>
+		</ul>
+	</li>
+	<li>getProtoAttributeName() : accumule les noms d'attributs dans une liste et la retourne.</li>
 	<li></li>
 </ul>
