@@ -1,5 +1,7 @@
 ## Semaine 9 et 10 : import 
 
+### Fin de la conversion du YML 
+
 <ul>Cette semaine on a complété le yml . Ce qui fait qu'on a ajouté les fonctions : 
 	<li>findSimilarities : prend l'objet yml original et retourne un dictionnaire où les clefs sont toutes les clefs différentes de l'objet et les valeurs sont des listes vides</li>
 	<li>refineSimilarities() : 
@@ -50,3 +52,5 @@ this.nameTheConcepts();
 	</li>
 	<li>On a fini 99% du yml , il reste à tester avec plus d'exemple et  les optimisations possibles du code à faire.<li>
 </ul>
+
+### Début de la conversion du XML 
