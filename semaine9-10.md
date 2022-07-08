@@ -51,6 +51,22 @@ this.nameTheConcepts();
 </p>
 	</li>
 	<li>On a fini 99% du yml , il reste à tester avec plus d'exemple et  les optimisations possibles du code à faire.<li>
+	<li>Liens utilisés : 
+		<ul>
+			<li><a href = "https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Array/find#sp%C3%A9cifications"></a>https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Array/find#sp%C3%A9cifications</li>
+			<li><a href="https://benyoss4.medium.com/what-is-js-subclassing-and-how-its-a-time-saver-be46995c95ce"></a>https://benyoss4.medium.com/what-is-js-subclassing-and-how-its-a-time-saver-be46995c95ce</li>
+			<li><a href ="https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Classes/extends">https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Classes/extends</a></li>
+		</ul>
+	</li>
 </ul>
 
 ### Début de la conversion du XML 
+
+<li>D'abord , comme d'habitude parser le document xml en object </li>
+<li>D'abord on a essayé la librairie : <a href="https://www.npmjs.com/package/fast-xml-parser">https://www.npmjs.com/package/fast-xml-parser</a> résultat pas marché</li>
+<li>On a essayé: <a href="https://www.npmjs.com/package/xml-parser">https://www.npmjs.com/package/xml-parser</a> Résultat : installation marche mais quand on l'essaie sur bibliotheque.xml cela donne : {
+  declaration: { attributes: { version: '1.0', encoding: 'UTF-8' } },
+  root: undefined
+} , ce qui n'est pas du tout ce que nous rechechons</li>
+<li>On essaie ensuite <a href="https://www.npmjs.com/package/xml-parse">https://www.npmjs.com/package/xml-parse</a> Résultat : on avait juste la couche extérieure et il aurait fallu implémenter une logique récursive de on rentre dans innerXML qu'on parse pour ensuite itérer à travers ses élément et encore avoir un innerHTML pour avoir un objet utilisable dans le futur</li>
+<li><a href="https://www.npmjs.com/package/dom-parser">https://www.npmjs.com/package/dom-parser</a> Essaie 4 , on a : </li>
