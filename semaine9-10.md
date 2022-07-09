@@ -78,7 +78,7 @@ et j'ai appris que cela existait via <a href="https://medium.com/@nitinpatel_202
 		
 
 <li><a href=""></a></li>
-<li><a href=""></a></li>	
+	
 <li><a href="https://www.npmjs.com/package/fxp">https://www.npmjs.com/package/fxp</a>Consulter dans le but de débogger pour utiliser fast-xml-parser</li>
 <li><a href="https://stackoverflow.com/questions/9023672/how-do-i-resolve-cannot-find-module-error-using-node-js">https://stackoverflow.com/questions/9023672/how-do-i-resolve-cannot-find-module-error-using-node-js</a>Encore une fois déboggage la librarie pour qu'on puisse l'utiliser</li>
 <li><a href="https://stackoverflow.com/questions/9023672/how-do-i-resolve-cannot-find-module-error-using-node-js">https://stackoverflow.com/questions/9023672/how-do-i-resolve-cannot-find-module-error-using-node-js</a>Autre déboggage du modules</li>
@@ -90,5 +90,6 @@ et j'ai appris que cela existait via <a href="https://medium.com/@nitinpatel_202
 <li><a href="https://www.w3schools.com/js/js_json_parse.asp">https://www.w3schools.com/js/js_json_parse.asp</a>Également utilsé pour une préceédente itération dans un code pour convertir xml en structure utilisable  </li>
 <li><a href="https://www.pluralsight.com/guides/convert-strings-to-json-objects-in-javascript-with-eval">https://www.pluralsight.com/guides/convert-strings-to-json-objects-in-javascript-with-eval</a> Aussi utilisé pour une ancienne itération où on visait directment convertir xml en json</li>
 <li><a href="https://stackoverflow.com/questions/52281389/convert-xml-to-json-with-nodejs">https://stackoverflow.com/questions/52281389/convert-xml-to-json-with-nodejs</a> Finalement la solution désirée est de convertir la string xml en json ce que ce code fait très bien et c'est cette solution qui est sélectionnée</li>
+<li><a href="https://stackoverflow.com/questions/2549320/looping-through-an-object-tree-recursively">https://stackoverflow.com/questions/2549320/looping-through-an-object-tree-recursively</a><b>Très important : À retenir à la fois pour les yml plus complexe et le xml.</b></li>
 </ul>
 </li>
