@@ -75,12 +75,10 @@ et j'ai appris que cela existait via <a href="https://medium.com/@nitinpatel_202
 <li>On essait cette méthode et on a une erreur que le string en xml qu'on essaie de convertir n'est pas un itérable alors on ne peut pas le faire donc on ne garde pas cette idée ni la fonctiopn xml2json(srcDOM)</li>
 <li>On est revenu avec la première librairie et avec du déboggage de stack et en essayant tous ces sites , on est arrivé à faire marcher la librairie: 
 	<ul>
-		<li><a href=""></a></li>
-		<li><a href=""></a></li>
-		<li><a href=""></a></li>
-		<li><a href=""></a></li>
-		<li><a href=""></a></li>
 		
+
+<li><a href=""></a></li>
+<li><a href=""></a></li>	
 <li><a href="https://www.npmjs.com/package/fxp">https://www.npmjs.com/package/fxp</a>Consulter dans le but de débogger pour utiliser fast-xml-parser</li>
 <li><a href="https://stackoverflow.com/questions/9023672/how-do-i-resolve-cannot-find-module-error-using-node-js">https://stackoverflow.com/questions/9023672/how-do-i-resolve-cannot-find-module-error-using-node-js</a>Encore une fois déboggage la librarie pour qu'on puisse l'utiliser</li>
 <li><a href="https://stackoverflow.com/questions/9023672/how-do-i-resolve-cannot-find-module-error-using-node-js">https://stackoverflow.com/questions/9023672/how-do-i-resolve-cannot-find-module-error-using-node-js</a>Autre déboggage du modules</li>
@@ -88,6 +86,9 @@ et j'ai appris que cela existait via <a href="https://medium.com/@nitinpatel_202
 <li><a href="https://github.com/NaturalIntelligence/fast-xml-parser">https://github.com/NaturalIntelligence/fast-xml-parser</a> On a utilisé ce repertoire pour pouvoir faire l'import et on appelle fxp.js à partir de require </li>
 <li><a href="https://attacomsian.com/blog/nodejs-check-if-directory-exists">https://attacomsian.com/blog/nodejs-check-if-directory-exists</a>Pour checker si mon directory que j'appelle dans require est valide</li><li><a href="https://www.npmjs.com/package/fast-xml-parser">https://www.npmjs.com/package/fast-xml-parser</a> Apprend la base de comment utiliser le parser </li>
 <li><a href="https://stackoverflow.com/questions/5223/length-of-a-javascript-object">https://stackoverflow.com/questions/5223/length-of-a-javascript-object</a> M'aide avec la récursivité</li>
+<li><a href="https://stackoverflow.com/questions/5223/length-of-a-javascript-object">https://stackoverflow.com/questions/5223/length-of-a-javascript-object</a>Utilisé pour une précédente itération pour convertir xml en json </li>
+<li><a href="https://www.w3schools.com/js/js_json_parse.asp">https://www.w3schools.com/js/js_json_parse.asp</a>Également utilsé pour une préceédente itération dans un code pour convertir xml en structure utilisable  </li>
+<li><a href="https://www.pluralsight.com/guides/convert-strings-to-json-objects-in-javascript-with-eval">https://www.pluralsight.com/guides/convert-strings-to-json-objects-in-javascript-with-eval</a> Aussi utilisé pour une ancienne itération où on visait directment convertir xml en json</li>
 <li><a href="https://stackoverflow.com/questions/52281389/convert-xml-to-json-with-nodejs">https://stackoverflow.com/questions/52281389/convert-xml-to-json-with-nodejs</a> Finalement la solution désirée est de convertir la string xml en json ce que ce code fait très bien et c'est cette solution qui est sélectionnée</li>
 </ul>
 </li>
