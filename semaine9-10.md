@@ -92,5 +92,23 @@ et j'ai appris que cela existait via <a href="https://medium.com/@nitinpatel_202
 <li><a href="https://stackoverflow.com/questions/52281389/convert-xml-to-json-with-nodejs">https://stackoverflow.com/questions/52281389/convert-xml-to-json-with-nodejs</a> Finalement la solution désirée est de convertir la string xml en json ce que ce code fait très bien et c'est cette solution qui est sélectionnée</li>
 <li><a href="https://github.com/nashwaan/xml-js">https://github.com/nashwaan/xml-js</a> Lue la documentation de la librairie qui a converti le xml en yml </li>
 <li><a href="https://stackoverflow.com/questions/2549320/looping-through-an-object-tree-recursively">https://stackoverflow.com/questions/2549320/looping-through-an-object-tree-recursively</a><b>Très important : À retenir à la fois pour les yml plus complexe et le xml.</b></li>
+
+
+<li><a href="https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce">https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce</a> Plus de ressources utiles </li>
+<li><a href="https://developer.mozilla.org/fr/docs/Web/API/DOMParser">https://developer.mozilla.org/fr/docs/Web/API/DOMParser</a>Utilisé pour une précédente itération pour convertir xml en json </li>
+<li><a href="https://www.w3schools.com/js/js_json_parse.asp">https://www.w3schools.com/js/js_json_parse.asp</a></li>
+<li><a href="https://www.npmjs.com/package/dom-parser">https://www.npmjs.com/package/dom-parser</a>Librairie finalement utilisé</li>
+<li><a href="https://www.w3schools.com/jsref/prop_node_firstchild.asp">https://www.w3schools.com/jsref/prop_node_firstchild.asp</a> </li>
+<li><a href="https://www.w3schools.com/xml/dom_nodes_access.asp">https://www.w3schools.com/xml/dom_nodes_access.asp</a></li>
+<li><a href="https://www.w3schools.com/xml/dom_nodes_access.asp">https://www.w3schools.com/xml/dom_nodes_access.asp</a></li>
+
+<li><a href="https://github.com/xmldom/xmldom">https://github.com/xmldom/xmldom</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/DOMParser">https://developer.mozilla.org/en-US/docs/Web/API/DOMParser</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document">https://developer.mozilla.org/en-US/docs/Web/API/Document</a></li>
+<li><a href="https://www.npmjs.com/package/dom-parser">https://www.npmjs.com/package/dom-parser</a>Librairie finalement utilisé</li>
+<li><a href="https://www.w3schools.com/jsref/prop_node_firstchild.asp">https://www.w3schools.com/jsref/prop_node_firstchild.asp</a> </li>
+<li><a href="https://www.w3schools.com/xml/dom_nodes_access.asp">https://www.w3schools.com/xml/dom_nodes_access.asp</a></li>
+<li><a href="https://www.javascripttutorial.net/javascript-dom/javascript-get-child-element/">https://www.javascripttutorial.net/javascript-dom/javascript-get-child-element/</a></li>
+<li><a href="https://attacomsian.com/blog/javascript-dom-check-if-an-element-has-children">https://attacomsian.com/blog/javascript-dom-check-if-an-element-has-children</a></li>
 </ul>
 </li>
