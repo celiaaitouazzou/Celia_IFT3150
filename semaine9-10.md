@@ -110,5 +110,25 @@ et j'ai appris que cela existait via <a href="https://medium.com/@nitinpatel_202
 <li><a href="https://www.w3schools.com/xml/dom_nodes_access.asp">https://www.w3schools.com/xml/dom_nodes_access.asp</a></li>
 <li><a href="https://www.javascripttutorial.net/javascript-dom/javascript-get-child-element/">https://www.javascripttutorial.net/javascript-dom/javascript-get-child-element/</a></li>
 <li><a href="https://attacomsian.com/blog/javascript-dom-check-if-an-element-has-children">https://attacomsian.com/blog/javascript-dom-check-if-an-element-has-children</a></li>
+
+<li><a href="https://www.w3schools.com/jsref/prop_node_firstchild.asp">https://www.w3schools.com/jsref/prop_node_firstchild.asp</a></li>
+<li><a href="https://developer.mozilla.org/fr/docs/Web/API/Document/documentElement">https://developer.mozilla.org/fr/docs/Web/API/Document/documentElement</a> </li>
+<li><a href="https://www.javascripttutorial.net/javascript-dom/javascript-get-child-element/">https://www.javascripttutorial.net/javascript-dom/javascript-get-child-element/</a></li>
+<li><a href="hhttps://attacomsian.com/blog/javascript-dom-check-if-an-element-has-childrenttps://www.npmjs.com/package/dom-parser">https://attacomsian.com/blog/javascript-dom-check-if-an-element-has-children</a></li>
+<li><a href="https://developer.mozilla.org/fr/docs/Web/API/Element/hasAttribute">https://developer.mozilla.org/fr/docs/Web/API/Element/hasAttribute</a> </li>
+<li><a href="https://developer.mozilla.org/fr/docs/Web/API/Element/attributes">https://developer.mozilla.org/fr/docs/Web/API/Element/attributes</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element#svg_and_mathml">https://developer.mozilla.org/en-US/docs/Web/HTML/Element#svg_and_mathml</a></li>
 </ul>
 </li>
+
+- https://www.w3schools.com/jsref/prop_node_firstchild.asp
+- https://developer.mozilla.org/fr/docs/Web/API/Document/documentElement
+- https://www.javascripttutorial.net/javascript-dom/javascript-get-child-element/
+- https://attacomsian.com/blog/javascript-dom-check-if-an-element-has-children
+- https://developer.mozilla.org/fr/docs/Web/API/Element/hasAttribute
+- https://developer.mozilla.org/fr/docs/Web/API/Element/attributes
+- https://developer.mozilla.org/en-US/docs/Web/HTML/Element#svg_and_mathml
+- https://attacomsian.com/blog/javascript-dom-get-the-parent-of-an-element
+- https://www.w3schools.com/jsref/prop_element_childelementcount.asp
+- https://www.w3schools.com/colors/colors_picker.asp
+- https://www.freecodecamp.org/news/check-if-javascript-array-is-empty-or-not-with-length/
