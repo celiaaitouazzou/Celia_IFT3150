@@ -132,3 +132,20 @@ et j'ai appris que cela existait via <a href="https://medium.com/@nitinpatel_202
 - https://www.w3schools.com/jsref/prop_element_childelementcount.asp
 - https://www.w3schools.com/colors/colors_picker.asp
 - https://www.freecodecamp.org/news/check-if-javascript-array-is-empty-or-not-with-length/
+
+commencer à travailler sur le rapport d'avancement et rapport synthèse, les tests, le nettoyage
+
+- https://stackoverflow.com/questions/2218999/how-to-remove-all-duplicates-from-an-array-of-objects
+- https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
+- https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce
+- https://stackoverflow.com/questions/455338/how-do-i-check-if-an-object-has-a-key-in-javascript
+- https://stackoverflow.com/questions/455338/how-do-i-check-if-an-object-has-a-key-in-javascript
+- https://stackoverflow.com/questions/5767325/how-can-i-remove-a-specific-item-from-an-array
+- https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Array/splice
+- https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Classes/constructor
+- https://stackoverflow.com/questions/126100/how-to-efficiently-count-the-number-of-keys-properties-of-an-object-in-javascrip
+- https://www.educative.io/answers/how-to-get-keys-values-and-entries-in-javascript-object
+- https://linuxhint.com/convert-object-to-string-javascript/
+- https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Object/keys
+- https://stackoverflow.com/questions/4104321/recursively-parsing-json
+- 
