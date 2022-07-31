@@ -108,8 +108,6 @@ et j'ai appris que cela existait via <a href="https://medium.com/@nitinpatel_202
 <li><a href="https://developer.mozilla.org/fr/docs/Web/API/Element/hasAttribute">https://developer.mozilla.org/fr/docs/Web/API/Element/hasAttribute</a> </li>
 <li><a href="https://developer.mozilla.org/fr/docs/Web/API/Element/attributes">https://developer.mozilla.org/fr/docs/Web/API/Element/attributes</a></li>
 <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element#svg_and_mathml">https://developer.mozilla.org/en-US/docs/Web/HTML/Element#svg_and_mathml</a></li>
-</ul>
-</ul>
 
 - https://www.w3schools.com/jsref/prop_node_firstchild.asp
 - https://developer.mozilla.org/fr/docs/Web/API/Document/documentElement
