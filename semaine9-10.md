@@ -118,12 +118,21 @@ Ressource Utilisée pour cette étape:
 </li>
 
 
+## Semaine 12 : nettoyage du YML
 
-commencer à travailler sur le rapport d'avancement et rapport synthèse, les tests, le nettoyage
-
-- 
-
-
-- https://www.npmjs.com/package/chai
-- https://www.npmjs.com/package/mocha?activeTab=versions
-- 
+<ul>
+	<li>Comme avant , on lit le fichier yml et le ressort en une string s. On prend cette string et on utilise yaml.load pour ressortir un objet JSON j .</li>
+	<li>On met j dans une variable. Et on appelle :  this.recursiveFetchAttribute(jsonObjectList,new Concept(...),{});</li>
+	<li>recursiveAttribute va tester si c'est une array et si ça l'est elle va appeler la fonction generateConceptObject(jsonObjectList,definedConcept) avec comme arguments j et un tout nouveau concept. </li>
+	<li>Alors generateConceptObject initialise conceptList à un objet vide. Puis itère à travers chaque objet i dans la liste et appelle this.recursiveFetchAttribute(objet[i],definedConcept,conceptList) afin que recursiveFetchAttribute  et l'assigne à conceptList pour que conceptList soit updaté.</li>
+	<li>this.recursiveFetchAttribute(objet[i],definedConcept,conceptList) quand à elle : 
+		<ul>
+			<li>1. Vérifie si le nom est pas encore dans conceptList , s'il n'y est pas , on rajoute une clé tel que le nom de la clé est le nom du concept donné en paramètre et la valeur est un objet vide.</li>
+			<li>2. prend un objet en paramètre et quand ce n'est pas une array , elle itère à travers chaque élément j de cet objet. Si cet objet est null et que le nom d'attribut est pas encore dans conceptList on fetch la valeur lié au nom du concept et on y ajoute l'entrée nom de l'attribut:objet de l'attribut. Et s'il y est déjà , alors on vérifie s'il est required : si oui , on met required à faux.</li>
+			<li>Si l'objet reçu n'est pas null , on ajoute ajoute l'entrée nom de l'attribut:objet de l'attribut comme un "reference" et dans le accept on met accept : nom de l'attribut et on fait : dvar definedConcept = new Concept(j,"concrete",[]).</li>
+			<li>et on rappelle la fonction this.recursiveFetchAttribute(j,definedConcept,conceptList) </li>
+			<li>Ainsi si on a un sous objet, alors on a un attribut référence sous le concept courant et un nouveau concept au prochain appel de la fonction parce qu'on a redéfini le current concept qui sera ajouté à attributeList au prochain appel. </li>
+			<li>et si cela n'a pas de </li>
+		</ul>
+	</li>
+</ul>
