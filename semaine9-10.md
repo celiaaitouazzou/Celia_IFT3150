@@ -75,22 +75,44 @@ this.nameTheConcepts();
 et j'ai appris que cela existait via <a href="https://medium.com/@nitinpatel_20236/converting-xml-to-json-using-recursion-7b1df91b42d8">https://medium.com/@nitinpatel_20236/converting-xml-to-json-using-recursion-7b1df91b42d8</a>.Par la suite , on a suivi la fonction xml2json(srcDOM) est directement prise de : <a href="https://medium.com/@nitinpatel_20236/converting-xml-to-json-using-recursion-7b1df91b42d8">https://medium.com/@nitinpatel_20236/converting-xml-to-json-using-recursion-7b1df91b42d8</a> mais il y avait des problèmes avec la ligne let children = [...srcDOM.children]; qui me donnait une erreur que le string en xml qu'on essaie de convertir n'est pas un itérable alors on ne peut pas le faire donc on ne garde pas cette idée ni la fonctiopn xml2json(srcDOM)<. Alors j'ai abandonné la tentative au complet. </li>
 
 <li>On est revenu avec la première librairie et avec les solutions suivantes , on essaies de débogguer l'import de la librairie:<a href="https://stackoverflow.com/questions/9023672/how-do-i-resolve-cannot-find-module-error-using-node-js">https://stackoverflow.com/questions/9023672/how-do-i-resolve-cannot-find-module-error-using-node-js</a>,<a href="https://stackoverflow.com/questions/19272880/node-js-require-and-module-not-found">https://stackoverflow.com/questions/19272880/node-js-require-and-module-not-found</a>, on aussi essayé d'appeler fast xml en téléchargeant le github de fast xml <a href="https://github.com/NaturalIntelligence/fast-xml-parser">https://github.com/NaturalIntelligence/fast-xml-parser</a> et on a tenté de require les fichiers qui font l'import avec :<a href="https://attacomsian.com/blog/nodejs-check-if-directory-exists">https://attacomsian.com/blog/nodejs-check-if-directory-exists</a> .Elle ne sera pas retenue pour être utilisée ,car rien de tout cela a marché pour convertir le xml en objet.</li>
+<li>Ressources consultés durant cette étape: <br>
+	<ul>
+		<li><a href="https://www.w3schools.com/js/js_json_parse.asp">https://www.w3schools.com/js/js_json_parse.asp</a></li>
+		<li><a href="https://www.pluralsight.com/guides/convert-strings-to-json-objects-in-javascript-with-eval">https://www.pluralsight.com/guides/convert-strings-to-json-objects-in-javascript-with-eval</a></li>
+		<li><a href="https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce">https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce</a></li>
+		<li><a href="https://stackoverflow.com/questions/52281389/convert-xml-to-json-with-nodejs">https://stackoverflow.com/questions/52281389/convert-xml-to-json-with-nodejs</a></li> 
+		<li><a href="https://www.w3schools.com/js/js_json_parse.asp">https://www.w3schools.com/js/js_json_parse.asp</a></li>
+		<li><a href="https://github.com/nashwaan/xml-js">https://github.com/nashwaan/xml-js</a> </li>
+	</ul>
+</li>
 
-<li>Pour voir comment je peux règler l'erreur avec la librairie en question.</li>
-<li>Finalement, on est arrivé à faire marcher la librairie:<li><a href="https://www.npmjs.com/package/fxp">https://www.npmjs.com/package/fxp</a> On a utilisé ce repertoire pour pouvoir faire l'import et on appelle fxp.js à partir de require </li>
-<li>On tente de récursivement passer à travers l'arbre XML et ceci m'aide avec la récursivité<a href="https://stackoverflow.com/questions/5223/length-of-a-javascript-object">https://stackoverflow.com/questions/5223/length-of-a-javascript-object</a>.Puis itérerer à travers un objet et l'accumuler dans une data structure (j'ai essayé d'accumuler cela dans un objet comme JSON et j'ai essayé avec une liste ),  tout en faisant la récursion mais souvent on a 'can't push on undefined'. Et ce fut notre problème pendant  une semaine . Pour des raisons que je ne sais pas , la liste devenait undefined et bien sûr quand j'essaiyais de push dans une list undefined , cela générait une erreur. J'ai essayé d'en faire une variable , mais quand je rappelais la fonction , naturellement, elle redevenait vide, j'ai essayé d'en faire un attribut de la classe YMLParserSerializer mais cela ne marchait pas. J'ai également essayé d'utiliser cela <a href="https://www.w3schools.com/js/js_json_parse.asp">https://www.w3schools.com/js/js_json_parse.asp</a> et <a href="https://www.pluralsight.com/guides/convert-strings-to-json-objects-in-javascript-with-eval">https://www.pluralsight.com/guides/convert-strings-to-json-objects-in-javascript-with-eval</a>pour faire du xml en string ou en object en un JSON en accumulant comme j'avais dit puis ensuite traiter le JSON, comme j'ai traité le yml . Mais ni l'accumulation des éléments dans une liste ni dans un json n'a marché.J'ai également essayé de faire la récursion via reduce <a href="https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce">https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce</a>. Finalement la solution désirée est de convertir la string xml en json ce que ce code fait très bien et c'est cette solution qui est sélectionnée pour l'instant:<a href="https://stackoverflow.com/questions/52281389/convert-xml-to-json-with-nodejs">https://stackoverflow.com/questions/52281389/convert-xml-to-json-with-nodejs</a> et via json parse : <a href="https://www.w3schools.com/js/js_json_parse.asp">https://www.w3schools.com/js/js_json_parse.asp</a>.Voici la librairie en question : <a href="https://github.com/nashwaan/xml-js">https://github.com/nashwaan/xml-js</a> J'ai également lu la documentation de la librairie qui a converti le xml en yml,mais nous avions le même problème une fois que cela était converti en json avec la récursion jusqu'à ce que je ce j'ajoute une ligne de code vendredi 15 juillet en faisant que je ne fasse plus d'appel récursif. J'ai réussi à récupérer les éléments de l'arbre XML dans une liste , mais à ce moment , Louis-Édouard m'a recommandé d'utiliser l'objet Dom Parser puis utiliser les méthodes de cet objet car ce sera plus facile et plus efficace. 
+<li>Finalement, on est arrivé à cette librairie qui converti xml en objet (fxp library):<li><a href="https://www.npmjs.com/package/fxp">https://www.npmjs.com/package/fxp</a></li>
+<li> 22eb4ade6b1ed0808592fb9526b21288e1a2b958 : J'ai commencé un premier algorithme qui traversait les éléments d'un objet et si l'élément avait plus d'un enfant alors rappeler la fonction récursivement. <b>On tente d'accumuler les éléments de l'arbre XML dans la liste a</b> , un paramètre de la function. <br>
+Ressource Utilisée pour cette étape: 
+<ul>
+	<li><a href="https://stackoverflow.com/questions/5223/length-of-a-javascript-object">https://stackoverflow.com/questions/5223/length-of-a-javascript-object</a></li>
+	<li><a href="https://stackoverflow.com/questions/455338/how-do-i-check-if-an-object-has-a-key-in-javascript">https://stackoverflow.com/questions/455338/how-do-i-check-if-an-object-has-a-key-in-javascript</a> </li>
+	<li><a href = "https://stackoverflow.com/questions/126100/how-to-efficiently-count-the-number-of-keys-properties-of-an-object-in-javascript">https://stackoverflow.com/questions/126100/how-to-efficiently-count-the-number-of-keys-properties-of-an-object-in-javascript</a></li>
+	<li><a href="https://www.educative.io/answers/how-to-get-keys-values-and-entries-in-javascript-object">https://www.educative.io/answers/how-to-get-keys-values-and-entries-in-javascript-object</a></li>
+	<li>Cela pour traverser récursivement le JSON : <a href="https://stackoverflow.com/questions/4104321/recursively-parsing-json">https://stackoverflow.com/questions/4104321/recursively-parsing-json</a></li>
+	
+</ul>
+</li>
+<li>
+	On a essayé la même chose qu'à la précédente itération , mais à la place que a soit un paramètre , a est une variable de liste vide , mais à chaque appel récursif , cela vidait la liste , alors cela n'était pas la solution 
+</li>
+<li>
+	0fd1cb624b350d2c0d3ea93ca04fb304a70a8e46 : J'ai essayé d'accumuler les éléments de l'arbre xml dans la liste a avec la fonction <it>Reduce</it> pour ensuite enlever les doublons via : <a href="https://stackoverflow.com/questions/2218999/how-to-remove-all-duplicates-from-an-array-of-objects">https://stackoverflow.com/questions/2218999/how-to-remove-all-duplicates-from-an-array-of-objects</a> , ou les ajouter puis s'ils sont là , les enlever de la liste de concept ,ce qui me donnait une erreur , alors pour tenter de règler le problème , j'ai consulté  : <a href="https://stackoverflow.com/questions/5767325/how-can-i-remove-a-specific-item-from-an-array">https://stackoverflow.com/questions/5767325/how-can-i-remove-a-specific-item-from-an-array</a>,<a href="https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Array/splice">https://stackoverflow.com/questions/5767325/how-can-i-remove-a-specific-item-from-an-array</a>. Mais cela n'a pas marché alors nous avons abandonné la solution.
+
 <li><b>Note important pour plus tard à la fois pour les yml plus complexe (embriqués) et le xml :</b><a href="https://stackoverflow.com/questions/2549320/looping-through-an-object-tree-recursively">https://stackoverflow.com/questions/2549320/looping-through-an-object-tree-recursively</a></li>
 
 
 <li><a href="https://www.w3schools.com/jsref/prop_node_firstchild.asp">https://www.w3schools.com/jsref/prop_node_firstchild.asp</a> </li>
 <li><a href="https://www.w3schools.com/xml/dom_nodes_access.asp">https://www.w3schools.com/xml/dom_nodes_access.asp</a></li>
-<li><a href="https://www.w3schools.com/xml/dom_nodes_access.asp">https://www.w3schools.com/xml/dom_nodes_access.asp</a></li>
 <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document">https://developer.mozilla.org/en-US/docs/Web/API/Document</a></li>
-<li><a href="https://www.w3schools.com/jsref/prop_node_firstchild.asp">https://www.w3schools.com/jsref/prop_node_firstchild.asp</a> </li>
 <li><a href="https://www.w3schools.com/xml/dom_nodes_access.asp">https://www.w3schools.com/xml/dom_nodes_access.asp</a></li>
 <li><a href="https://www.javascripttutorial.net/javascript-dom/javascript-get-child-element/">https://www.javascripttutorial.net/javascript-dom/javascript-get-child-element/</a></li>
 <li><a href="https://attacomsian.com/blog/javascript-dom-check-if-an-element-has-children">https://attacomsian.com/blog/javascript-dom-check-if-an-element-has-children</a></li>
-
 <li><a href="https://www.w3schools.com/jsref/prop_node_firstchild.asp">https://www.w3schools.com/jsref/prop_node_firstchild.asp</a></li>
 <li><a href="https://developer.mozilla.org/fr/docs/Web/API/Document/documentElement">https://developer.mozilla.org/fr/docs/Web/API/Document/documentElement</a> </li>
 <li><a href="https://www.javascripttutorial.net/javascript-dom/javascript-get-child-element/">https://www.javascripttutorial.net/javascript-dom/javascript-get-child-element/</a></li>
@@ -112,18 +134,11 @@ et j'ai appris que cela existait via <a href="https://medium.com/@nitinpatel_202
 
 commencer à travailler sur le rapport d'avancement et rapport synthèse, les tests, le nettoyage
 
-- https://stackoverflow.com/questions/2218999/how-to-remove-all-duplicates-from-an-array-of-objects
-- https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
-- https://stackoverflow.com/questions/455338/how-do-i-check-if-an-object-has-a-key-in-javascript
-- https://stackoverflow.com/questions/455338/how-do-i-check-if-an-object-has-a-key-in-javascript
-- https://stackoverflow.com/questions/5767325/how-can-i-remove-a-specific-item-from-an-array
-- https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Array/splice
+- 
+
 - https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Classes/constructor
-- https://stackoverflow.com/questions/126100/how-to-efficiently-count-the-number-of-keys-properties-of-an-object-in-javascrip
-- https://www.educative.io/answers/how-to-get-keys-values-and-entries-in-javascript-object
 - https://linuxhint.com/convert-object-to-string-javascript/
 - https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Object/keys
-- https://stackoverflow.com/questions/4104321/recursively-parsing-json
 - https://www.npmjs.com/package/chai
 - https://www.npmjs.com/package/mocha?activeTab=versions
 - 
