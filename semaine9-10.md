@@ -83,6 +83,7 @@ et j'ai appris que cela existait via <a href="https://medium.com/@nitinpatel_202
 		<li><a href="https://stackoverflow.com/questions/52281389/convert-xml-to-json-with-nodejs">https://stackoverflow.com/questions/52281389/convert-xml-to-json-with-nodejs</a></li> 
 		<li><a href="https://www.w3schools.com/js/js_json_parse.asp">https://www.w3schools.com/js/js_json_parse.asp</a></li>
 		<li><a href="https://github.com/nashwaan/xml-js">https://github.com/nashwaan/xml-js</a> </li>
+		<li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element#svg_and_mathml">https://developer.mozilla.org/en-US/docs/Web/HTML/Element#svg_and_mathml</a></li>
 	</ul>
 </li>
 
