@@ -52,7 +52,7 @@
 			</li>
 			<li>3.2. Une fois qu'on a notre listOfConcept avec les nulls à certain éléments. On appelle filter pour ne retenir que les éléments qui ne sont pas null ce qui conclut notre nettoyage <b> et ce qui conclut le parsing xml.</b></li>
 		</ul>
-		<li>
+		<li>Autres ressources consultées afin de faire le parsing : 
 			<ul>
 				<li><a href="https://www.w3schools.com/jsref/prop_node_firstchild.asp">https://www.w3schools.com/jsref/prop_node_firstchild.asp</a> </li>
 				<li><a href="https://www.w3schools.com/xml/dom_nodes_access.asp">https://www.w3schools.com/xml/dom_nodes_access.asp</a></li>
