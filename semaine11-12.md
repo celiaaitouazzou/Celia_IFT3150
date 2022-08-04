@@ -8,10 +8,10 @@
 	<li>J'ai ensuite essayé la librairie dom-parser de npm : <a href="https://www.npmjs.com/package/dom-parser">. Elle non plus ne marche pas , elle me donne {dom : htmlParser: '<...>' }} mais on pouvait pas extraire un enfant en particulier puisque tout était en string. À ce point , autant moi-même parser la string , alors j'ai abandonné cette option.</li>
 	<li>J'ai également essayé la librairie xmldom : <a href="https://github.com/xmldom/xmldom">https://github.com/xmldom/xmldom</a> et sans surprise, ce ne convenait pas . Cela me donnait effectivement un objet , mais il était vide ainsi , je ne pouvais extraire ses enfants ni sa racine et les méthode tel que document.getElementById(...) ne marchaient pas plus. Alors j'ai tenté autre chose. </li>
 	<li>
-	<li></li>
+	<li>Finalement, on a décidé d'aller avec la librairie JSDOM : <a href ="https://github.com/jsdom/jsdom">https://github.com/jsdom/jsdom</a>, qui permet de retourner un document </li>
 
 
-	
+
 <li><a href="https://www.w3schools.com/jsref/prop_node_firstchild.asp">https://www.w3schools.com/jsref/prop_node_firstchild.asp</a> </li>
 <li><a href="https://www.w3schools.com/xml/dom_nodes_access.asp">https://www.w3schools.com/xml/dom_nodes_access.asp</a></li>
 <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document">https://developer.mozilla.org/en-US/docs/Web/API/Document</a></li>
