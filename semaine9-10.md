@@ -106,6 +106,16 @@ Ressource Utilisée pour cette étape:
 
 <li><b>Note important pour plus tard à la fois pour les yml plus complexe (embriqués) et le xml :</b><a href="https://stackoverflow.com/questions/2549320/looping-through-an-object-tree-recursively">https://stackoverflow.com/questions/2549320/looping-through-an-object-tree-recursively</a></li>
 
+<li>Nous avons finalement réussi à accumuler les éléments dans une liste , mais nous avons découvert l'objet DOMParser qui nous permet de traverser l'arbre XML plus efficacement et donc de parser plus efficacement que si on devait raffiner une liste fonction après fonction. (Voir semaine 11-12 pour voir comment j'ai fait ) </li>
+<li>
+	Ressources utilisés : pour cette étape 
+	<ul>
+		<li><a href = "https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Classes/constructor">https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Classes/constructor</a></li>
+		<li><a href = "https://linuxhint.com/convert-object-to-string-javascript/">https://linuxhint.com/convert-object-to-string-javascript/</a></li>
+		<li><a href = "https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Object/keys"> https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Object/keys</a></li>
+	</ul>
+</li>
+
 
 <li><a href="https://www.w3schools.com/jsref/prop_node_firstchild.asp">https://www.w3schools.com/jsref/prop_node_firstchild.asp</a> </li>
 <li><a href="https://www.w3schools.com/xml/dom_nodes_access.asp">https://www.w3schools.com/xml/dom_nodes_access.asp</a></li>
@@ -113,32 +123,21 @@ Ressource Utilisée pour cette étape:
 <li><a href="https://www.w3schools.com/xml/dom_nodes_access.asp">https://www.w3schools.com/xml/dom_nodes_access.asp</a></li>
 <li><a href="https://www.javascripttutorial.net/javascript-dom/javascript-get-child-element/">https://www.javascripttutorial.net/javascript-dom/javascript-get-child-element/</a></li>
 <li><a href="https://attacomsian.com/blog/javascript-dom-check-if-an-element-has-children">https://attacomsian.com/blog/javascript-dom-check-if-an-element-has-children</a></li>
-<li><a href="https://www.w3schools.com/jsref/prop_node_firstchild.asp">https://www.w3schools.com/jsref/prop_node_firstchild.asp</a></li>
 <li><a href="https://developer.mozilla.org/fr/docs/Web/API/Document/documentElement">https://developer.mozilla.org/fr/docs/Web/API/Document/documentElement</a> </li>
 <li><a href="https://www.javascripttutorial.net/javascript-dom/javascript-get-child-element/">https://www.javascripttutorial.net/javascript-dom/javascript-get-child-element/</a></li>
 <li><a href="https://attacomsian.com/blog/javascript-dom-check-if-an-element-has-children">https://attacomsian.com/blog/javascript-dom-check-if-an-element-has-children</a></li>
 <li><a href="https://developer.mozilla.org/fr/docs/Web/API/Element/hasAttribute">https://developer.mozilla.org/fr/docs/Web/API/Element/hasAttribute</a> </li>
 <li><a href="https://developer.mozilla.org/fr/docs/Web/API/Element/attributes">https://developer.mozilla.org/fr/docs/Web/API/Element/attributes</a></li>
 <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element#svg_and_mathml">https://developer.mozilla.org/en-US/docs/Web/HTML/Element#svg_and_mathml</a></li>
-
-- https://www.w3schools.com/jsref/prop_node_firstchild.asp
-- https://developer.mozilla.org/fr/docs/Web/API/Document/documentElement
-- https://www.javascripttutorial.net/javascript-dom/javascript-get-child-element/
-- https://attacomsian.com/blog/javascript-dom-check-if-an-element-has-children
-- https://developer.mozilla.org/fr/docs/Web/API/Element/hasAttribute
-- https://developer.mozilla.org/fr/docs/Web/API/Element/attributes
-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element#svg_and_mathml
-- https://attacomsian.com/blog/javascript-dom-get-the-parent-of-an-element
-- https://www.w3schools.com/jsref/prop_element_childelementcount.asp
-- https://www.freecodecamp.org/news/check-if-javascript-array-is-empty-or-not-with-length/
+<li><a href = "https://attacomsian.com/blog/javascript-dom-get-the-parent-of-an-element">https://attacomsian.com/blog/javascript-dom-get-the-parent-of-an-element</a></li>
+<li><a href = "https://www.w3schools.com/jsref/prop_element_childelementcount.asp">https://www.w3schools.com/jsref/prop_element_childelementcount.asp</a></li>
+<li><a href = "https://www.freecodecamp.org/news/check-if-javascript-array-is-empty-or-not-with-length/">https://www.w3schools.com/jsref/prop_element_childelementcount.asp</a></li>
 
 commencer à travailler sur le rapport d'avancement et rapport synthèse, les tests, le nettoyage
 
 - 
 
-- https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Classes/constructor
-- https://linuxhint.com/convert-object-to-string-javascript/
-- https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Global_Objects/Object/keys
+
 - https://www.npmjs.com/package/chai
 - https://www.npmjs.com/package/mocha?activeTab=versions
 - 
