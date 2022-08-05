@@ -1,4 +1,4 @@
-## Semaine 9-10 : semaine du 18 juillet et semaine du 25 juillet
+## Semaine 11-12 : semaine du 18 juillet et semaine du 25 juillet
 
 ### Finir la conversion du xml
 

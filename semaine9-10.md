@@ -132,7 +132,10 @@ Ressource Utilisée pour cette étape:
 			<li>Si l'objet reçu n'est pas null , on ajoute ajoute l'entrée nom de l'attribut:objet de l'attribut comme un "reference" et dans le accept on met accept : nom de l'attribut et on fait : dvar definedConcept = new Concept(j,"concrete",[]).</li>
 			<li>et on rappelle la fonction this.recursiveFetchAttribute(j,definedConcept,conceptList) </li>
 			<li>Ainsi si on a un sous objet, alors on a un attribut référence sous le concept courant et un nouveau concept au prochain appel de la fonction parce qu'on a redéfini le current concept qui sera ajouté à attributeList au prochain appel. </li>
-			<li>et si cela n'a pas de </li>
+			<li>et si cela n'a pas de sous=object , on rappelle quand même la fonction , puis au prochain appel de la fonction , ce sera toujours le même concept et puisque ce sera ni une array , ni un objet , alors cela ira dans le branchement else et si le concept n'a pas déjà l'attribut , on l'ajoute comme d'habitude le duo : (nomattribut :objetStringAttribut)</li>
+			<li>Une fois notre objet attributeList est complet , c'est à dire qu'on a un objet tel que : {concept :{attribute1 : [attributeObject],attribute2 : [attributeObject2],attribute 3 : [attributeObject3]}, concept2 : {attributeA : [attributeObjectA], attributeB: [attributeObjectA],....}}</li>
+			<li>On itère à travers les concepts d'attributeList et à chaque itération i on crée un nouveau concept. Ensuite on itère à travers chaque valeur de la clé i qui sont des objets et on fetch les objets Attribute qu'on avait défini plus tôt et on les ajoute à la liste d'attributs du concept qu'on vient de définir. Et quand on fini la boucle imbriqué , on ajoute le concept à la liste de concept.</li>
+			<li>Et donc notre liste de concept est faites.</li>
 		</ul>
 	</li>
 </ul>
