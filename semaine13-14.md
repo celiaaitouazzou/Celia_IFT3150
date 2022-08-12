@@ -64,6 +64,7 @@
 				</ul>
 					<li>Vérifier que si null est une clé , après les changements que nous avions fait précédemment , nous devrions avoir en retour un attribut :  {"name" :"null","target":{"name" : "string"},"required":false} , test : {a:3,b:4, null, c:5 } devrait nous donner que listConcept.concepts[0].attribute[2] == {"name" :"null","target":{"name" : "string"},"required":false} </li>
 					<li>Vérifier que si null est la valeur d'un attribut alors "a" : null donnerait l'attribut => {"name" :"a","target":{"name" : "string"},"required":false} </li>
+					<li></li>
 				</ul>
 			</li>
 		</ul>
