@@ -136,6 +136,7 @@ Ressource Utilisée pour cette étape:
 			<li>Une fois notre objet attributeList est complet , c'est à dire qu'on a un objet tel que : {concept :{attribute1 : [attributeObject],attribute2 : [attributeObject2],attribute 3 : [attributeObject3]}, concept2 : {attributeA : [attributeObjectA], attributeB: [attributeObjectA],....}}</li>
 			<li>On itère à travers les concepts d'attributeList et à chaque itération i on crée un nouveau concept. Ensuite on itère à travers chaque valeur de la clé i qui sont des objets et on fetch les objets Attribute qu'on avait défini plus tôt et on les ajoute à la liste d'attributs du concept qu'on vient de définir. Et quand on fini la boucle imbriqué , on ajoute le concept à la liste de concept.</li>
 			<li>Et donc notre liste de concept est faites. Et nous avons un algorithme beaucoup plus efficace que ce que nous avions. Et un code plus court que ce que nous avions.</li>
+			<li></li>
 		</ul>
 	</li>
 </ul>
