@@ -114,9 +114,40 @@
 					<li>Vérifier avec targetNode ayant plus d'un attribut(le noeud a des attributs) , le concept devra avoir un attribut avec le nom de l'attribut A,B,C, etc. </li>
 					<li>Vérifier que La liste d'attributs(concept) devrait être aussi grande que la liste d'attributs(noeud).</li>
 					<li>On teste la fonction processChildNode(childNode,attributeSet,targetConcept) avec un custom childNode, custom attributeSet, custom targetConcept.</li>
-					<li>Pour la fonction processChildNode(childNode,attributeSet,targetConcept) , on a trois cas : si le nom du noeud n'est pas là , si le nom de node est là juste une fois , ou si le nom du noeud est là plus d'une fois. On fait 3 test pour valider ce qui se passera </li>
-					<li>...</li>
+					<li> Pour la fonction processChildNode(childNode,attributeSet,targetConcept) , on a trois cas : si le nom du noeud n'est pas là , si le nom de node est là juste une fois , ou si le nom du noeud est là plus d'une fois. On fait 3 tests pour valider ce qui se passera. 
+						<ul>
+							<li>childNode = "livre", attributeSet = {"bibliothèque " : ... , "ville" : ... , "adresse" : ... }, targetConcept = new Concept("concept","concrete",[]), Après avoir appelé la fonction , Vérifier que targetConcept n'a toujours pas d'attribut</li>
+							<li>childNode = "livre", attributeSet = {"bibliothèque " : ... , "ville" : ... , "adresse" : ..., "livre" : ... }, targetConcept = new Concept("concept","concrete",[]), Après avoir appelé la fonction , Vérifier que targetConcept n'a toujours pas d'attribut parce que ce n'est pas un set mais que attributSet[nodeName] a une  valeur de 1</li>
+							<li>childNode = "livre", attributeSet = {"bibliothèque " : ... , "ville" : ... , "adresse" : ..., "livre" : ... , "livre" : ...},targetConcept = new Concept("concept","concrete",[]), il devrait y avoir un attribut de plus.</li>
+							<li>childNode = "livre", attributeSet = {"bibliothèque " : ... , "ville" : ... , "adresse" : ..., "livre" : ... , "livre" : ..., "livre" : .... },targetConcept = new Concept("concept","concrete",[]), il devrait y avoir exactement un attribut de plus.</li>
+						</ul>
+					</li>
+					<li>Test-input : Il devrait y avoir un node qui a des enfants. 
+					<ul>
+						<li>Cela devrait donner deux concepts </li>
+						<li>Le premier concept devrait qui porter le nom du parent avec un attribut A.</li>
+						<li>L'attribut A porte le nom de l'enfant .</li>
+						<li>L'attribut A est de type reference </li>
+						<li>Il y a un second concept qui porte le nom de l'enfant</li>
+						<li>S'il a des enfants alors  il devrait y avoir une liste d'attribut aussi longue que la liste d'enfant.</li>
+					</ul>
+					<li>Vérifier que si un concept a une liste d'attributs vide , il n'est pas ajouté => Vérifier que la listConcept reste vide.</li>
 				</ul>
+				<li>Vérifier la fonction deleteSameConcept() ce qui comprend vérifier que pour deux éléments i ,j où i != j : 
+					<li>Vérifier la fonction nettoyerListElement(i,j,listOfConcepts) ,ce qui comprend : 
+						<ul>
+							<li>On vérifie que deux concepts identiques et on voit si un des deux devient null .</li>
+							<li>On vérifie que deux concepts avec le même nom mais i a plus d'attributs que j , j est censé être null.</li>
+							<li>On vérifie que deux concepts avec le même nom mais j a plus d'attributs que i , i est censé être null.</li>
+							<li>On vérifie que deux concepts avec le même nom et i et j on le même nom d'attribut mais j a un attribut k dont le nom est plus long que l'attribut k de l'attribut i. L'attribut i devrait être null.</li>
+							<li>On vérifie que deux concepts avec le même nom et i et j on le même nom d'attribut mais i a un attribut k dont le nom est plus long que l'attribut k de l'attribut j.L'attribut j devrait être null.</li>
+						</ul>
+					</li>
+					<li>Vérifier cela pour une liste de 1, 2, 3, et 4 éléments qui serait supprimer, il devrait toujours rester n-i éléments sauf là où il y a un élément.</li>
+					<li>Si nous avons un élément , il devrait être retourné.</li>
+					<li>On vérifie le filter sur listOfConcept. On créé un list de concept avec quelques null et quelques éléments non vide complètement différents , on appelle  deleteSameConcept()  ,cela devrait nous donner ces mêmes éléments sans les nulls.</li>
+					<li>Si toute la liste est composé des mêmes éléments , on devrait avoir un seul élément.</li>
+				</li>
 			</li>
 		</ul>
 	</li>
