@@ -6,7 +6,7 @@
 <p>Le nettoyage a été fait. Maintenant il reste les test et finaliser gentleman, le rapport des activités, le rapport technique.</p>
 <ul>
 	<li>On commence par les tests. On télécharge d'abord les package de test notamment : <a href="https://www.npmjs.com/package/chai">https://www.npmjs.com/package/chai</a>,<a href= "https://www.npmjs.com/package/mocha?activeTab=versions">https://www.npmjs.com/package/chai</a>,<a href="https://www.chaijs.com/api/bdd/#method_all">https://www.chaijs.com/api/bdd/#method_all</a></li>
-	<li>PS un X signifie que cela a été testé un cas de test passé sur plusieurs fichiers ou sur plusieurs cas.</li>
+	<li>PS un X signifie que cela a été testé via un cas de test expect passé sur plusieurs fichiers ou sur plusieurs cas.</li>
 	<li>
 		On commence par tester le csv ce qui inclut:
 		<ul>
