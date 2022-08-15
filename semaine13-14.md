@@ -6,43 +6,43 @@
 <p>Le nettoyage a été fait. Maintenant il reste les test et finaliser gentleman, le rapport des activités, le rapport technique.</p>
 <ul>
 	<li>On commence par les tests. On télécharge d'abord les package de test notamment : <a href="https://www.npmjs.com/package/chai">https://www.npmjs.com/package/chai</a>,<a href= "https://www.npmjs.com/package/mocha?activeTab=versions">https://www.npmjs.com/package/chai</a>,<a href="https://www.chaijs.com/api/bdd/#method_all">https://www.chaijs.com/api/bdd/#method_all</a></li>
+	<li>PS un X signifie que cela a été testé un cas de test passé sur plusieurs fichiers ou sur plusieurs cas.</li>
 	<li>
 		On commence par tester le csv ce qui inclut:
 		<ul>
 			<li>Node n'arrivait pas à reconnaître describe et nous en avions besoin donc on a fait un refactoring massif en bougeant converter-csv.js à /src/importer et modifier package.json pour que les tests fonctionnent avec notre fichier de test </li>
 			<li>On refactor le code de sorte à ce que au lieu qu'on appelle une classe. Au lieu d'une classe , nous avons un objet(dictionnaire), contenant les fonctions et les attributs. On crée un objet indépendant via function qu'on appelle afin d'instancier un objet et faire des manoeuvres sur lui.</li>
-			<li>On a d'abord commencé par un premier test: celui de la fonction file2DDataFrame. On a vu si on donnait cette fonction un object CSVParserSerializer valide, il nous retournerait une array, sinon il nous retourne une erreur. Les tests de ces deux cas ont passés.</li>
+			<li>On a d'abord commencé par un premier test: celui de la fonction file2DDataFrame. On a vu si on donnait cette fonction un object CSVParserSerializer valide, il nous retournerait une array, sinon il nous retourne une erreur. Les tests de ces deux cas ont passés. X </li>
 			<li>Ensuite , nous sommes passé à la fonction execute , voici les fonctionnalité à tester (aka. ce que la fonction doit absolument faire avec succès pour toutes ses inputs ) : 
 				<ul>
-					<li>D'abord il faut tester que si on a un csv non-valide , on aura le message d'erreur , dans les cas suivant  :
+					<li>D'abord il faut tester que si on a un csv non-valide aka la fonction validation(df) , on aura false , dans les cas suivant  :
 						<ul>
-							<li>L'entête a plus d'éléments que les lignes d'entrées.</li>
-							<li>L'entête a moins d'éléments que les lignes d'entrées.</li>
-							<li>Une ligne a plus d'élément que l'entête.</li>
-							<li>Une ligne a moins d'éléments que l'entête</li>
+							<li>L'entête a plus d'éléments que les lignes d'entrées. X</li>
+							<li>L'entête a moins d'éléments que les lignes d'entrées. X</li>
+							<li>Une ligne a un nombre différent d'élément qu'une autre ligne X</li>
+							<li>Une ligne et l'entête a un nombre différent de ligne qu'une certaine ligne X</li>
 						</ul> 
-						<li>Cela par la même occasion vérifie si la fonction validation marche. </li>
+						<ul>Et true sinon. Si on a une ligne X. ou si nous avons le même nombre de rangée dans toutes les lignes X.</ul>
+						<li>Cela par la même occasion vérifie si la fonction validation marche.  X</li>
 					</li>
-					<li>Si on a un csv-valide  , on: 
+					<li>Si on a un csv-valide,on : 
 						<ul>
-							<li>Crée un concept "collection_de_rangee", alors vérifier que cela est bien le cas </li>
-							<li>Vérifier que c'est bien un concept concret</li>
-							<li>Vérifier qu'il a juste un seul attribut</li>
+							<li>Crée un concept "collection_de_rangee", alors vérifier que cela est bien le cas X</li>
+							<li>Vérifier que c'est bien un concept concret X</li>
+							<li>Vérifier qu'il a juste un seul attribut X</li>
 							<li>Vérifier que cette attribut n'est pas null</li>
-							<li>Vérifier qu'il s'agit d'un attribut de target "set"</li>
-							<li>Vérifier que le target a un accept</li>
-							<li>Vérifier que le nom du accept correspond au nom du second concept</li>
-							<li>Vérifier que le nombre d'attribut du second concept <b>dites concept Entête</b>, correspond au nombre de colonne de l'entête</li>
-							<li>Vérifier que les noms de colonnes correspondent au noms des attributs</li>
-							<li>Vérifier que la fonction createAttributefromDataFrame(dataframe) crée une array avec autant d'élément que l'entête</li>
-							<li>Vérifier que la fonction createAttributefromDataFrame(dataframe) crée une array avec les bons éléments pour une liste vide, une liste avec un élément et une liste avec plusieurs éléments. </li>
-							<li></li>
-							<li>Vérifier que tous les attributs de l'entête correspondent à exactement un nom d'attribut de la liste du concept Entête</li>
+							<li>Vérifier qu'il s'agit d'un attribut de target "set" X</li>
+							<li>Vérifier que le target a un accept X </li>
+							<li>Vérifier que le nom du accept correspond au nom du second concept X </li>
+							<li>Vérifier que le nombre d'attribut du second concept <b>dites concept Entête</b>, correspond au nombre de colonne de l'entête X </li>
+							<li>Vérifier que les noms de colonnes correspondent au noms des attributs X</li>
+							<li>Vérifier que tous les attributs de l'entête correspondent à exactement un nom d'attribut de la liste du concept Entête X </li>
 						</ul>
 					</li>
+					<li>Sinon , cela devrait retourner "column error : please review your file and try again" X</li>
 				</ul>
 			</li>
-			<li>Cela conclut les tests pour l'import du csv.</li>
+			<li>Cela conclut les tests pour l'import du csv. X</li>
 		</ul>
 	</li>
 	<li>On continue avec le test du yml ce qui inclut: 
@@ -81,7 +81,7 @@
 			<li>Ensuite nous vérifions la fonction generateConceptList(conceptObject) en lui donnant comme paramètre : 
 				<li>Un objet vide</li>
 				<li>Un objet avec juste 1 seule concept vide dedans {concept : {}}</li>
-				<li>Un objet avec un seul concept et un seul attribut {concept : {attributeName : {} . </li>
+				<li>Un objet avec un seul concept et un seul attribut {concept : {attributeName : {} }. </li>
 				<li>Un objet "typique" avec plusieurs concepts et plusieurs attributs de toutes sortes.</li>
 				<li></li>
 			</li>
